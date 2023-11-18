@@ -18,3 +18,5 @@ git push (pushes to the repo)
 PUT YOUR NAME HERE
 
 Daylen
+
+Pranav
