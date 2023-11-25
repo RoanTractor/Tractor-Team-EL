@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Motherboard_2023-rescue")(type "Legacy")(uri "${KIPRJMOD}/Motherboard_2023-rescue.lib")(options "")(descr ""))
+)
