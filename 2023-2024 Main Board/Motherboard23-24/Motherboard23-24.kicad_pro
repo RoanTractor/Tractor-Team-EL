@@ -467,6 +467,31 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "418d1727-08ff-41e8-954f-e6e13e4fb4ca",
+      ""
+    ],
+    [
+      "97542c42-a706-445d-a930-fc308481bbac",
+      "Steering Controller"
+    ],
+    [
+      "1e49dcc8-e11f-4b9d-96b3-823be8a481eb",
+      "Throttle Control"
+    ],
+    [
+      "7d37a3b4-ae31-4786-acc0-9fb13a05600d",
+      "5V Protection"
+    ],
+    [
+      "49f749a9-7949-4eb5-ac9b-302b9054d0c8",
+      "Safety Circuit"
+    ],
+    [
+      "671f3c6d-e3a3-4407-8ecd-a0ef7369b063",
+      "FuseBox"
+    ]
+  ],
   "text_variables": {}
 }
