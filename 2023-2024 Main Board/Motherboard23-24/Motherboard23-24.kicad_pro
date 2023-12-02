@@ -481,16 +481,24 @@
       "Throttle Control"
     ],
     [
-      "7d37a3b4-ae31-4786-acc0-9fb13a05600d",
-      "5V Protection"
-    ],
-    [
       "49f749a9-7949-4eb5-ac9b-302b9054d0c8",
       "Safety Circuit"
     ],
     [
       "671f3c6d-e3a3-4407-8ecd-a0ef7369b063",
       "FuseBox"
+    ],
+    [
+      "79e5ef54-9445-401d-95fa-8055a0ca0c00",
+      "Extra Power & Ground"
+    ],
+    [
+      "d15f88a3-eb3a-4abd-b913-7ade9bdcdd4a",
+      "CVT Controller"
+    ],
+    [
+      "619adee8-8620-442e-8f01-97f0f2820305",
+      "SafetyStart"
     ]
   ],
   "text_variables": {}
