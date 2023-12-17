@@ -1,0 +1,2127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\dayle\Desktop\Tractor-Team-EL\2023-2024 Main Board\Motherboard23-24\Motherboard23-24.kicad_sch</source>
+    <date>2023-12-17 12:52:13 AM</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Motherboard23-24.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Steering Controller/" tstamps="/97542c42-a706-445d-a930-fc308481bbac/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>steering.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Throttle Control/" tstamps="/1e49dcc8-e11f-4b9d-96b3-823be8a481eb/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>throttle.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>safety.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>fuse.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Extra Power &amp; Ground/" tstamps="/79e5ef54-9445-401d-95fa-8055a0ca0c00/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pwrgnd.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/CVT Controller/" tstamps="/d15f88a3-eb3a-4abd-b913-7ade9bdcdd4a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>cvt.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/SafetyStart/" tstamps="/619adee8-8620-442e-8f01-97f0f2820305/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>safetystart.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J7">
+      <value>Conn_01x03_Pin</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="Steering Controller"/>
+      <property name="Sheetfile" value="steering.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Steering Controller/" tstamps="/97542c42-a706-445d-a930-fc308481bbac/"/>
+      <tstamps>3c4b362f-fd6b-45b3-8a09-bdd25db02237</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>Conn_01x02_Pin</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Steering Controller"/>
+      <property name="Sheetfile" value="steering.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Steering Controller/" tstamps="/97542c42-a706-445d-a930-fc308481bbac/"/>
+      <tstamps>85b4a7d8-a53b-4927-901d-6d79f1bbc9c5</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>Conn_01x06_Pin</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Pin" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value="Steering Controller"/>
+      <property name="Sheetfile" value="steering.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Steering Controller/" tstamps="/97542c42-a706-445d-a930-fc308481bbac/"/>
+      <tstamps>60f06e33-f25a-4eb3-b2b7-dc09ce83abbc</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ARDUINO_PRO_MINI</value>
+      <footprint>ARDUINO_PRO_MINI:MODULE_ARDUINO_PRO_MINI</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=eda</field>
+        <field name="Description">
+This board was developed for applications and installations where space is premium and projects are made as permanent set ups. Small, available in 3.3 V and 5 V versions, powered by ATmega328P.
+</field>
+        <field name="MANUFACTURER">SparkFun Electronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="MF">Arduino</field>
+        <field name="MP">Arduino Pro Mini</field>
+        <field name="PARTREV">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="ARDUINO_PRO_MINI" part="ARDUINO_PRO_MINI" description=""/>
+      <property name="MF" value="Arduino"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="N/A"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=snap"/>
+      <property name="MP" value="Arduino Pro Mini"/>
+      <property name="Description" value="&#xA;This board was developed for applications and installations where space is premium and projects are made as permanent set ups. Small, available in 3.3 V and 5 V versions, powered by ATmega328P.&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="SparkFun Electronics"/>
+      <property name="Sheetname" value="Steering Controller"/>
+      <property name="Sheetfile" value="steering.kicad_sch"/>
+      <sheetpath names="/Steering Controller/" tstamps="/97542c42-a706-445d-a930-fc308481bbac/"/>
+      <tstamps>ff359eee-acd0-4a82-a41f-bd3f7ae79de1</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x08_Male</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal</footprint>
+      <libsource lib="Motherboard_2023-rescue" part="Conn_01x08_Male-Connector" description=""/>
+      <property name="Sheetname" value="Throttle Control"/>
+      <property name="Sheetfile" value="throttle.kicad_sch"/>
+      <sheetpath names="/Throttle Control/" tstamps="/1e49dcc8-e11f-4b9d-96b3-823be8a481eb/"/>
+      <tstamps>6e45d7bc-4a6e-4e3f-9110-58702f602f27</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>Conn_01x02_Male</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Motherboard_2023-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <property name="Sheetname" value="Throttle Control"/>
+      <property name="Sheetfile" value="throttle.kicad_sch"/>
+      <sheetpath names="/Throttle Control/" tstamps="/1e49dcc8-e11f-4b9d-96b3-823be8a481eb/"/>
+      <tstamps>04596a80-42e8-4f11-abc7-32c13791dbde</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Throttle Control"/>
+      <property name="Sheetfile" value="throttle.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Throttle Control/" tstamps="/1e49dcc8-e11f-4b9d-96b3-823be8a481eb/"/>
+      <tstamps>5d7b7c74-e798-4443-bf6c-adfbc5d67245</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Throttle Control"/>
+      <property name="Sheetfile" value="throttle.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Throttle Control/" tstamps="/1e49dcc8-e11f-4b9d-96b3-823be8a481eb/"/>
+      <tstamps>94df2d1b-785d-4162-b4c2-8fea2c3145ba</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Throttle Control"/>
+      <property name="Sheetfile" value="throttle.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Throttle Control/" tstamps="/1e49dcc8-e11f-4b9d-96b3-823be8a481eb/"/>
+      <tstamps>cbbaa767-cb8f-4e85-a9c1-7f34950027dd</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>ARDUINO_PRO_MINI</value>
+      <footprint>ARDUINO_PRO_MINI:MODULE_ARDUINO_PRO_MINI</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=eda</field>
+        <field name="Description">
+This board was developed for applications and installations where space is premium and projects are made as permanent set ups. Small, available in 3.3 V and 5 V versions, powered by ATmega328P.
+</field>
+        <field name="MANUFACTURER">SparkFun Electronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="MF">Arduino</field>
+        <field name="MP">Arduino Pro Mini</field>
+        <field name="PARTREV">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="ARDUINO_PRO_MINI" part="ARDUINO_PRO_MINI" description=""/>
+      <property name="MF" value="Arduino"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="N/A"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=snap"/>
+      <property name="MP" value="Arduino Pro Mini"/>
+      <property name="Description" value="&#xA;This board was developed for applications and installations where space is premium and projects are made as permanent set ups. Small, available in 3.3 V and 5 V versions, powered by ATmega328P.&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="SparkFun Electronics"/>
+      <property name="Sheetname" value="Throttle Control"/>
+      <property name="Sheetfile" value="throttle.kicad_sch"/>
+      <sheetpath names="/Throttle Control/" tstamps="/1e49dcc8-e11f-4b9d-96b3-823be8a481eb/"/>
+      <tstamps>be6aca6f-b804-42b0-a434-f3f63276f7b1</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>4cf5adf3-1fe7-4d3b-9142-206f62457374</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>c3c04325-9b76-4c58-885a-e406a5cae480</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>14009eb3-cbe9-4483-824c-48db4b49c8ad</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Male</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <libsource lib="Motherboard_2023-rescue" part="Conn_01x03_Male-Connector" description=""/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>78c3a415-1389-486f-98f5-3530992b39d2</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x04_Male</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal</footprint>
+      <libsource lib="Motherboard_2023-rescue" part="Conn_01x04_Male-Connector" description=""/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>5da84e8f-4572-4da6-a546-0f027babe1e7</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NMOS_GDS</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>6cb6ce4e-a7ff-4d3f-a249-4eff29311fe9</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>7f698e6b-d191-4c80-92c8-f809e42bef6d</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>c6fc65ae-b643-4fff-b278-cc52f402780c</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>605fcbe9-ea7f-4f58-824c-297f47c9bb51</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>53f7abf6-8557-499c-9361-e82b773006e1</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>5de8608c-618f-4113-983a-4bb515c1177a</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>b5f4cc96-e091-4294-a484-7afea8c0b4ae</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>a1c7df2c-cdd9-4a7e-9afe-ebab8ca0b629</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>95cf59bf-1be8-4e01-834a-58bb1ed05fb9</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>de1a3ec9-c400-439e-a58d-62d52b723795</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>a3fa2090-736a-409c-a996-7e382089f718</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>a6be3d2c-065e-4239-9f63-26871126c18b</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>7d54d40e-e660-4eef-bb09-6fd8f513403c</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>05646b23-ae2c-4abd-9804-507a9fff4f5f</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>ab4383ee-c16c-4db5-813b-e704d39961c8</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>b317aeac-c928-4509-be0e-7619a0f93f9e</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>5138a982-fe4d-4e67-a01b-b43048b3b358</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>9dcd9dba-f8d5-4d0a-afac-96236a8dc095</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>8e694def-e82c-4716-b8b0-a60fe64aa796</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>7923992d-2d16-4713-87ba-641b27423867</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>27304d6d-d5c5-40f3-aa6c-9a9d605f45f8</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>f9e1d6b6-10bf-44b5-bae6-b47d1d9eeaa4</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>2073fa56-1f1f-42ac-adf0-7e1f52b09bb6</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>ee2014c1-9e74-4779-bca8-343a36272101</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>f2324043-7227-411f-957e-d185acb44f5d</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>CD4081BE</value>
+      <footprint>CD4081BE (AND):DIP794W45P254L1969H508Q14</footprint>
+      <libsource lib="CD4081BE" part="CD4081BE" description=""/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>91efcd6e-643c-449a-9559-c7eac3fb9cdf</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>CD4069UBE</value>
+      <footprint>CD4069UBE (Inverter):DIP794W45P254L1969H508Q14</footprint>
+      <libsource lib="CD4069UBE" part="CD4069UBE" description=""/>
+      <property name="Sheetname" value="Safety Circuit"/>
+      <property name="Sheetfile" value="safety.kicad_sch"/>
+      <sheetpath names="/Safety Circuit/" tstamps="/49f749a9-7949-4eb5-ac9b-302b9054d0c8/"/>
+      <tstamps>3f8e23ba-eda0-47de-b43e-d02c00457e00</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>972ebe15-aac3-4e05-a1d4-01922894c180</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>9ad7df56-ad24-4523-ac12-d888fce35557</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>c196304b-4633-4f39-b76e-1939cef72461</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>3b542346-bb42-4656-8348-a39f5fd9a103</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>0485ce70-3231-490e-8a5e-054f9659b54e</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-15_P5.08mm_Vertical_KathodeUp</footprint>
+      <libsource lib="Motherboard_2023-rescue" part="DIODE-pspice" description=""/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>abc0d143-accb-46f2-9103-461571c10601</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>D_Zener</value>
+      <footprint>Diode_THT:D_DO-15_P5.08mm_Vertical_KathodeUp</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>a4a8560d-0901-4a8a-ac4e-35b01300d6c6</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>3568</value>
+      <footprint>3568 (Fuse Holder):FUSE_3568</footprint>
+      <fields>
+        <field name="MANUFACTURER">Keystone Electronics Corp.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.37</field>
+        <field name="PARTREV">C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="3568" part="3568" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7.37"/>
+      <property name="MANUFACTURER" value="Keystone Electronics Corp."/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="C"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>be138e6f-80c2-4262-8e1d-cba585ed0b09</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>3568</value>
+      <footprint>3568 (Fuse Holder):FUSE_3568</footprint>
+      <fields>
+        <field name="MANUFACTURER">Keystone Electronics Corp.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.37</field>
+        <field name="PARTREV">C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="3568" part="3568" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7.37"/>
+      <property name="MANUFACTURER" value="Keystone Electronics Corp."/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="C"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>a82f57e9-00d8-494a-a370-094b570fa17f</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>3568</value>
+      <footprint>3568 (Fuse Holder):FUSE_3568</footprint>
+      <fields>
+        <field name="MANUFACTURER">Keystone Electronics Corp.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.37</field>
+        <field name="PARTREV">C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="3568" part="3568" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7.37"/>
+      <property name="MANUFACTURER" value="Keystone Electronics Corp."/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="C"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>18d8eba0-e0c6-4788-96b4-a8afa47469b9</tstamps>
+    </comp>
+    <comp ref="F4">
+      <value>3568</value>
+      <footprint>3568 (Fuse Holder):FUSE_3568</footprint>
+      <fields>
+        <field name="MANUFACTURER">Keystone Electronics Corp.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.37</field>
+        <field name="PARTREV">C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="3568" part="3568" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7.37"/>
+      <property name="MANUFACTURER" value="Keystone Electronics Corp."/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="C"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>d7e33763-a41b-4434-8452-8199f0e3292d</tstamps>
+    </comp>
+    <comp ref="F5">
+      <value>3568</value>
+      <footprint>3568 (Fuse Holder):FUSE_3568</footprint>
+      <fields>
+        <field name="MANUFACTURER">Keystone Electronics Corp.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.37</field>
+        <field name="PARTREV">C</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="3568" part="3568" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7.37"/>
+      <property name="MANUFACTURER" value="Keystone Electronics Corp."/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="C"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>637b6b28-197c-4f74-83bd-3a06a92e5119</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Male</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Motherboard_2023-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>e2c4985f-a0b7-4f14-bf61-e84cd0290359</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Motherboard_2023-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>34b29ba0-7117-4e4f-8744-e651263f88d3</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Male</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Motherboard_2023-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>49a632a2-8fef-44ab-8426-635da2404d65</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02_Male</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Motherboard_2023-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>d9dfdd97-963c-4a03-94ae-4cb866d28f66</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02_Male</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Motherboard_2023-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>23a23d82-b62a-417f-833a-4e617d499e1c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>c2087798-c387-4d83-bcf7-749500744245</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>526d67b2-8e0b-44c4-8b25-a7cb723979bb</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>49d5fd28-9846-4a5b-b5ab-578b16cce147</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>d85b5943-36e6-4af1-91b1-fa4e01fc62df</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>01a46c68-bcf5-4302-b70d-ae9b5bb9b199</tstamps>
+    </comp>
+    <comp ref="TH2">
+      <value>Thermistor</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical</footprint>
+      <libsource lib="Device" part="Thermistor" description="Temperature dependent resistor"/>
+      <property name="Sheetname" value="FuseBox"/>
+      <property name="Sheetfile" value="fuse.kicad_sch"/>
+      <property name="ki_description" value="Temperature dependent resistor"/>
+      <property name="ki_keywords" value="R res thermistor"/>
+      <sheetpath names="/FuseBox/" tstamps="/671f3c6d-e3a3-4407-8ecd-a0ef7369b063/"/>
+      <tstamps>4bb00134-ec51-4588-958d-7e438cb33b4e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06_Pin</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Pin" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value="CVT Controller"/>
+      <property name="Sheetfile" value="cvt.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/CVT Controller/" tstamps="/d15f88a3-eb3a-4abd-b913-7ade9bdcdd4a/"/>
+      <tstamps>1efa9989-3e18-4413-943b-d3655aa25109</tstamps>
+    </comp>
+    <comp ref="J23">
+      <value>Conn_01x03_Pin</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="CVT Controller"/>
+      <property name="Sheetfile" value="cvt.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/CVT Controller/" tstamps="/d15f88a3-eb3a-4abd-b913-7ade9bdcdd4a/"/>
+      <tstamps>4558b1c8-dd3c-4cc2-adb5-1c235e2528b2</tstamps>
+    </comp>
+    <comp ref="J24">
+      <value>Conn_01x02_Pin</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="CVT Controller"/>
+      <property name="Sheetfile" value="cvt.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/CVT Controller/" tstamps="/d15f88a3-eb3a-4abd-b913-7ade9bdcdd4a/"/>
+      <tstamps>03f8d28b-abd7-47c0-83ba-21fa29d56977</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ARDUINO_PRO_MINI</value>
+      <footprint>ARDUINO_PRO_MINI:MODULE_ARDUINO_PRO_MINI</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=eda</field>
+        <field name="Description">
+This board was developed for applications and installations where space is premium and projects are made as permanent set ups. Small, available in 3.3 V and 5 V versions, powered by ATmega328P.
+</field>
+        <field name="MANUFACTURER">SparkFun Electronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="MF">Arduino</field>
+        <field name="MP">Arduino Pro Mini</field>
+        <field name="PARTREV">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="ARDUINO_PRO_MINI" part="ARDUINO_PRO_MINI" description=""/>
+      <property name="MF" value="Arduino"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="N/A"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=snap"/>
+      <property name="MP" value="Arduino Pro Mini"/>
+      <property name="Description" value="&#xA;This board was developed for applications and installations where space is premium and projects are made as permanent set ups. Small, available in 3.3 V and 5 V versions, powered by ATmega328P.&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="SparkFun Electronics"/>
+      <property name="Sheetname" value="CVT Controller"/>
+      <property name="Sheetfile" value="cvt.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/CVT Controller/" tstamps="/d15f88a3-eb3a-4abd-b913-7ade9bdcdd4a/"/>
+      <tstamps>65d2d466-c63a-45c9-83a9-18492051f729</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x06_Male</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal</footprint>
+      <libsource lib="Motherboard_2023-rescue" part="Conn_01x06_Male-Connector" description=""/>
+      <property name="Sheetname" value="SafetyStart"/>
+      <property name="Sheetfile" value="safetystart.kicad_sch"/>
+      <sheetpath names="/SafetyStart/" tstamps="/619adee8-8620-442e-8f01-97f0f2820305/"/>
+      <tstamps>767f5716-cefc-4fb4-8766-aa977b5bb916</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>VCF4-1000</value>
+      <footprint>VCF4-1000 (Relay Socket):TE_VCF4-1000</footprint>
+      <fields>
+        <field name="Comment">1393310-3</field>
+      </fields>
+      <libsource lib="Motherboard_2023-rescue" part="VCF4-1000-VCF4-1000-Motherboard_2023-rescue" description=""/>
+      <property name="Comment" value="1393310-3"/>
+      <property name="Sheetname" value="SafetyStart"/>
+      <property name="Sheetfile" value="safetystart.kicad_sch"/>
+      <sheetpath names="/SafetyStart/" tstamps="/619adee8-8620-442e-8f01-97f0f2820305/"/>
+      <tstamps>04ac0c1b-e25f-4b5b-ba40-c6279a1bbf6f</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>VCF4-1000</value>
+      <footprint>VCF4-1000 (Relay Socket):TE_VCF4-1000</footprint>
+      <fields>
+        <field name="Comment">1393310-3</field>
+      </fields>
+      <libsource lib="Motherboard_2023-rescue" part="VCF4-1000-VCF4-1000-Motherboard_2023-rescue" description=""/>
+      <property name="Comment" value="1393310-3"/>
+      <property name="Sheetname" value="SafetyStart"/>
+      <property name="Sheetfile" value="safetystart.kicad_sch"/>
+      <sheetpath names="/SafetyStart/" tstamps="/619adee8-8620-442e-8f01-97f0f2820305/"/>
+      <tstamps>ff473121-dfb9-4b80-a266-7432f50dc6ba</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x03_Male</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <libsource lib="Motherboard_2023-rescue" part="Conn_01x03_Male-Connector" description=""/>
+      <property name="Sheetname" value="SafetyStart"/>
+      <property name="Sheetfile" value="safetystart.kicad_sch"/>
+      <sheetpath names="/SafetyStart/" tstamps="/619adee8-8620-442e-8f01-97f0f2820305/"/>
+      <tstamps>f969dc66-2924-4431-a7cc-e4287f1bb92d</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>VCF4-1000</value>
+      <footprint>VCF4-1000 (Relay Socket):TE_VCF4-1000</footprint>
+      <fields>
+        <field name="Comment">1393310-3</field>
+      </fields>
+      <libsource lib="Motherboard_2023-rescue" part="VCF4-1000-VCF4-1000-Motherboard_2023-rescue" description=""/>
+      <property name="Comment" value="1393310-3"/>
+      <property name="Sheetname" value="SafetyStart"/>
+      <property name="Sheetfile" value="safetystart.kicad_sch"/>
+      <sheetpath names="/SafetyStart/" tstamps="/619adee8-8620-442e-8f01-97f0f2820305/"/>
+      <tstamps>fcb83d89-eb40-4243-8c5e-f18cd6cdf162</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>VCF4-1000</value>
+      <footprint>VCF4-1000 (Relay Socket):TE_VCF4-1000</footprint>
+      <fields>
+        <field name="Comment">1393310-3</field>
+      </fields>
+      <libsource lib="Motherboard_2023-rescue" part="VCF4-1000-VCF4-1000-Motherboard_2023-rescue" description=""/>
+      <property name="Comment" value="1393310-3"/>
+      <property name="Sheetname" value="SafetyStart"/>
+      <property name="Sheetfile" value="safetystart.kicad_sch"/>
+      <sheetpath names="/SafetyStart/" tstamps="/619adee8-8620-442e-8f01-97f0f2820305/"/>
+      <tstamps>f422c620-accb-4d5c-a2f5-70022e6a4cd1</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_01x02_Male</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Motherboard_2023-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <property name="Sheetname" value="SafetyStart"/>
+      <property name="Sheetfile" value="safetystart.kicad_sch"/>
+      <sheetpath names="/SafetyStart/" tstamps="/619adee8-8620-442e-8f01-97f0f2820305/"/>
+      <tstamps>695aecd7-7006-4dd1-91c8-7be81c51e7bf</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NMOS_GDS</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value="SafetyStart"/>
+      <property name="Sheetfile" value="safetystart.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/drain/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/SafetyStart/" tstamps="/619adee8-8620-442e-8f01-97f0f2820305/"/>
+      <tstamps>d51e222b-ab6b-4b7c-8122-5d1603d0e646</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SafetyStart"/>
+      <property name="Sheetfile" value="safetystart.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SafetyStart/" tstamps="/619adee8-8620-442e-8f01-97f0f2820305/"/>
+      <tstamps>7fa187d5-63a9-4b00-8c0a-af419c409723</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="3568" part="3568">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">3568</field>
+        <field name="Footprint">FUSE_3568</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.37</field>
+        <field name="MANUFACTURER">Keystone Electronics Corp.</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ARDUINO_PRO_MINI" part="ARDUINO_PRO_MINI">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ARDUINO_PRO_MINI</field>
+        <field name="Footprint">ARDUINO_PRO_MINI:MODULE_ARDUINO_PRO_MINI</field>
+        <field name="MF">Arduino</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">N/A</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/Arduino%20Pro%20Mini/Arduino/view-part/?ref=snap</field>
+        <field name="MP">Arduino Pro Mini</field>
+        <field name="Description">
+This board was developed for applications and installations where space is premium and projects are made as permanent set ups. Small, available in 3.3 V and 5 V versions, powered by ATmega328P.
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">SparkFun Electronics</field>
+      </fields>
+      <pins>
+        <pin num="JP1_1" name="DTR" type="input"/>
+        <pin num="JP1_2" name="TXO" type="bidirectional"/>
+        <pin num="JP1_3" name="RXI" type="bidirectional"/>
+        <pin num="JP1_4" name="VCC" type="power_in"/>
+        <pin num="JP1_5" name="GND" type="power_in"/>
+        <pin num="JP1_6" name="GND" type="power_in"/>
+        <pin num="JP2_1" name="A4" type="bidirectional"/>
+        <pin num="JP2_2" name="A5" type="bidirectional"/>
+        <pin num="JP3_1" name="A6" type="input"/>
+        <pin num="JP3_2" name="A7" type="input"/>
+        <pin num="JP6_1" name="RAW" type="power_in"/>
+        <pin num="JP6_2" name="GND_1" type="power_in"/>
+        <pin num="JP6_3" name="RST_1" type="input"/>
+        <pin num="JP6_4" name="VCC_1" type="power_in"/>
+        <pin num="JP6_5" name="A3" type="bidirectional"/>
+        <pin num="JP6_6" name="A2" type="bidirectional"/>
+        <pin num="JP6_7" name="A1" type="bidirectional"/>
+        <pin num="JP6_8" name="A0" type="bidirectional"/>
+        <pin num="JP6_9" name="SCK" type="bidirectional"/>
+        <pin num="JP6_10" name="MISO" type="bidirectional"/>
+        <pin num="JP6_11" name="MOSI" type="bidirectional"/>
+        <pin num="JP6_12" name="D10" type="bidirectional"/>
+        <pin num="JP7_1" name="D9" type="bidirectional"/>
+        <pin num="JP7_2" name="D8" type="bidirectional"/>
+        <pin num="JP7_3" name="D7" type="bidirectional"/>
+        <pin num="JP7_4" name="D6" type="bidirectional"/>
+        <pin num="JP7_5" name="D5" type="bidirectional"/>
+        <pin num="JP7_6" name="D4" type="bidirectional"/>
+        <pin num="JP7_7" name="D3" type="bidirectional"/>
+        <pin num="JP7_8" name="D2" type="bidirectional"/>
+        <pin num="JP7_9" name="GND_2" type="power_in"/>
+        <pin num="JP7_10" name="RST_2" type="input"/>
+        <pin num="JP7_11" name="RXI_2" type="bidirectional"/>
+        <pin num="JP7_12" name="TXO_2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="CD4069UBE" part="CD4069UBE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD4069UBE</field>
+        <field name="Footprint">DIP794W45P254L1969H508Q14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="~{A}" type="output"/>
+        <pin num="3" name="B" type="input"/>
+        <pin num="4" name="~{B}" type="output"/>
+        <pin num="5" name="C" type="input"/>
+        <pin num="6" name="~{C}" type="output"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="~{D}" type="output"/>
+        <pin num="9" name="D" type="input"/>
+        <pin num="10" name="~{E}" type="output"/>
+        <pin num="11" name="E" type="input"/>
+        <pin num="12" name="~{F}" type="output"/>
+        <pin num="13" name="F" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CD4081BE" part="CD4081BE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD4081BE</field>
+        <field name="Footprint">DIP794W45P254L1969H508Q14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="J=A.B" type="output"/>
+        <pin num="4" name="K=C.D" type="output"/>
+        <pin num="5" name="C" type="input"/>
+        <pin num="6" name="D" type="input"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="E" type="input"/>
+        <pin num="9" name="F" type="input"/>
+        <pin num="10" name="L=E.F" type="output"/>
+        <pin num="11" name="M=G.M" type="output"/>
+        <pin num="12" name="G" type="input"/>
+        <pin num="13" name="H" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Pin">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor">
+      <description>Temperature dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motherboard_2023-rescue" part="Conn_01x02_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motherboard_2023-rescue" part="Conn_01x03_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motherboard_2023-rescue" part="Conn_01x04_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Conn_01x04_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motherboard_2023-rescue" part="Conn_01x06_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Conn_01x06_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motherboard_2023-rescue" part="Conn_01x08_Male-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Conn_01x08_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motherboard_2023-rescue" part="DIODE-pspice">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">pspice_DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motherboard_2023-rescue" part="VCF4-1000-VCF4-1000-Motherboard_2023-rescue">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Motherboard_2023-rescue_VCF4-1000-VCF4-1000</field>
+        <field name="Footprint">TE_VCF4-1000</field>
+        <field name="Comment">1393310-3</field>
+      </fields>
+      <pins>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="85" name="85" type="passive"/>
+        <pin num="86" name="86" type="passive"/>
+        <pin num="87" name="87" type="passive"/>
+        <pin num="87A" name="87A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="3568">
+      <uri>C:/Users/dayle/Desktop/Tractor-Team-EL/2023-2024 Main Board/Motherboard23-24/Libraries/3568 (Fuse Holder)/3568.lib</uri>
+    </library>
+    <library logical="ARDUINO_PRO_MINI">
+      <uri>C:/Users/dayle/Desktop/Tractor-Team-EL/2023-2024 Main Board/Motherboard23-24/Libraries/ARDUINO_PRO_MINI/ARDUINO_PRO_MINI.kicad_sym</uri>
+    </library>
+    <library logical="CD4069UBE">
+      <uri>C:/Users/dayle/Desktop/Tractor-Team-EL/2023-2024 Main Board/Motherboard23-24/Libraries/CD4069UBE (Inverter)/CD4069UBE.lib</uri>
+    </library>
+    <library logical="CD4081BE">
+      <uri>C:/Users/dayle/Desktop/Tractor-Team-EL/2023-2024 Main Board/Motherboard23-24/Libraries/CD4081BE (AND)/CD4081BE.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="F3" pin="4" pintype="passive"/>
+      <node ref="J23" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="JP6_4" pinfunction="VCC_1" pintype="power_in"/>
+      <node ref="U2" pin="JP6_4" pinfunction="VCC_1" pintype="power_in"/>
+      <node ref="U5" pin="JP6_4" pinfunction="VCC_1" pintype="power_in"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="30" pinfunction="30" pintype="passive"/>
+      <node ref="J15" pin="30" pinfunction="30" pintype="passive"/>
+      <node ref="J16" pin="30" pinfunction="30" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="14" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="/Safety Circuit/Brake">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/Safety Circuit/Brake_Output">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="5" name="/Safety Circuit/Neutral">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/Safety Circuit/Neutral_Inverted">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="7" name="/Safety Circuit/Neutral_Output">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="8" name="/Safety Circuit/Seat">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/Safety Circuit/Seat_Output">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="10" name="/SafetyStart/Comp_Switch">
+      <node ref="J11" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J13" pin="85" pinfunction="85" pintype="passive"/>
+      <node ref="J13" pin="87A" pinfunction="87A" pintype="passive"/>
+      <node ref="J15" pin="85" pinfunction="85" pintype="passive"/>
+      <node ref="J21" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="JP6_2" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U1" pin="JP7_9" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U2" pin="JP6_2" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U2" pin="JP7_9" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="10" pinfunction="~{E}" pintype="output"/>
+      <node ref="U4" pin="12" pinfunction="~{F}" pintype="output"/>
+      <node ref="U4" pin="4" pinfunction="~{B}" pintype="output"/>
+      <node ref="U4" pin="6" pinfunction="~{C}" pintype="output"/>
+      <node ref="U4" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="8" pinfunction="~{D}" pintype="output"/>
+      <node ref="U5" pin="JP6_2" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U5" pin="JP7_9" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="12" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="F1" pin="4" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="F2" pin="4" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F4" pin="2" pintype="passive"/>
+      <node ref="F4" pin="4" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F5" pin="2" pintype="passive"/>
+      <node ref="F5" pin="4" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="input"/>
+      <node ref="TH2" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D8-K)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="input"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D9-K)">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="F3" pin="3" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TH2" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="JP6_8" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="JP6_7" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="Net-(J1-Pin_3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="JP6_6" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Net-(J1-Pin_4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="JP7_1" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Net-(J1-Pin_5)">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U2" pin="JP7_2" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(J1-Pin_6)">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U2" pin="JP7_3" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(J2-Pin_2)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="F1" pin="3" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(J3-Pin_2)">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="F2" pin="3" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(J5-Pin_2)">
+      <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="F4" pin="3" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(J6-Pin_2)">
+      <node ref="F5" pin="1" pintype="passive"/>
+      <node ref="F5" pin="3" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(J7-Pin_1)">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="JP7_7" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="Net-(J7-Pin_2)">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="JP7_8" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="Net-(J8-Pin_3)">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="JP6_8" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(J8-Pin_4)">
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U5" pin="JP6_7" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(J8-Pin_6)">
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U5" pin="JP7_8" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="Net-(J8-Pin_7)">
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U5" pin="JP7_7" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="Net-(J8-Pin_8)">
+      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U5" pin="JP7_6" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="Net-(J11-Pin_3)">
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(J11-Pin_5)">
+      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J12" pin="86" pinfunction="86" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(J12-Pad87)">
+      <node ref="J12" pin="87" pinfunction="87" pintype="passive"/>
+      <node ref="J13" pin="86" pinfunction="86" pintype="passive"/>
+      <node ref="J15" pin="86" pinfunction="86" pintype="passive"/>
+      <node ref="J16" pin="86" pinfunction="86" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(J14-Pin_1)">
+      <node ref="J13" pin="30" pinfunction="30" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(J14-Pin_2)">
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J15" pin="87" pinfunction="87" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(J14-Pin_3)">
+      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J16" pin="87" pinfunction="87" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(J17-Pin_1)">
+      <node ref="J16" pin="85" pinfunction="85" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(J18-Pin_1)">
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="JP7_5" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="Net-(J18-Pin_2)">
+      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="JP7_6" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="Net-(J19-Pin_1)">
+      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="JP6_8" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="Net-(J19-Pin_2)">
+      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="JP6_7" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="Net-(J19-Pin_3)">
+      <node ref="J19" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="JP6_6" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="Net-(J19-Pin_4)">
+      <node ref="J19" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="JP7_1" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="Net-(J19-Pin_5)">
+      <node ref="J19" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="JP7_2" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="Net-(J19-Pin_6)">
+      <node ref="J19" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="JP7_3" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="Net-(J21-Pin_1)">
+      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U5" pin="JP7_1" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="Net-(J23-Pin_1)">
+      <node ref="J23" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="JP7_7" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="Net-(J23-Pin_2)">
+      <node ref="J23" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="JP7_8" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="Net-(J24-Pin_1)">
+      <node ref="J24" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="JP7_5" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="Net-(J24-Pin_2)">
+      <node ref="J24" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="JP7_6" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="Net-(Q1-G)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(Q2-D)">
+      <node ref="J12" pin="85" pinfunction="85" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(U1-GND-PadJP1_5)">
+      <node ref="U1" pin="JP1_5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="JP1_6" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="64" name="Net-(U2-GND-PadJP1_5)">
+      <node ref="U2" pin="JP1_5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="JP1_6" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="65" name="Net-(U3-B)">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(U3-E)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(U3-F)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(U3-G)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="69" name="Net-(U3-H)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="H" pintype="input"/>
+    </net>
+    <net code="70" name="Net-(U3-J=A.B)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="J=A.B" pintype="output"/>
+    </net>
+    <net code="71" name="Net-(U3-K=C.D)">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="K=C.D" pintype="output"/>
+    </net>
+    <net code="72" name="Net-(U3-L=E.F)">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="L=E.F" pintype="output"/>
+    </net>
+    <net code="73" name="Net-(U3-M=G.M)">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="M=G.M" pintype="output"/>
+    </net>
+    <net code="74" name="Net-(U4-B)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(U4-C)">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="76" name="Net-(U4-D)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="77" name="Net-(U4-E)">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="78" name="Net-(U4-F)">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="F" pintype="input"/>
+    </net>
+    <net code="79" name="Net-(U4-~{A})">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="~{A}" pintype="output"/>
+    </net>
+    <net code="80" name="Net-(U5-GND-PadJP1_5)">
+      <node ref="U5" pin="JP1_5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="JP1_6" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="81" name="Safety_Signal">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="82" name="unconnected-(J12-Pad87A)">
+      <node ref="J12" pin="87A" pinfunction="87A" pintype="passive"/>
+    </net>
+    <net code="83" name="unconnected-(J13-Pad87)">
+      <node ref="J13" pin="87" pinfunction="87" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(J15-Pad87A)">
+      <node ref="J15" pin="87A" pinfunction="87A" pintype="passive"/>
+    </net>
+    <net code="85" name="unconnected-(J16-Pad87A)">
+      <node ref="J16" pin="87A" pinfunction="87A" pintype="passive"/>
+    </net>
+    <net code="86" name="unconnected-(U1-A3-PadJP6_5)">
+      <node ref="U1" pin="JP6_5" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="unconnected-(U1-A4-PadJP2_1)">
+      <node ref="U1" pin="JP2_1" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="unconnected-(U1-A5-PadJP2_2)">
+      <node ref="U1" pin="JP2_2" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="unconnected-(U1-A6-PadJP3_1)">
+      <node ref="U1" pin="JP3_1" pinfunction="A6" pintype="input"/>
+    </net>
+    <net code="90" name="unconnected-(U1-A7-PadJP3_2)">
+      <node ref="U1" pin="JP3_2" pinfunction="A7" pintype="input"/>
+    </net>
+    <net code="91" name="unconnected-(U1-D6-PadJP7_4)">
+      <node ref="U1" pin="JP7_4" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="unconnected-(U1-D10-PadJP6_12)">
+      <node ref="U1" pin="JP6_12" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="unconnected-(U1-DTR-PadJP1_1)">
+      <node ref="U1" pin="JP1_1" pinfunction="DTR" pintype="input"/>
+    </net>
+    <net code="94" name="unconnected-(U1-MISO-PadJP6_10)">
+      <node ref="U1" pin="JP6_10" pinfunction="MISO" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="unconnected-(U1-MOSI-PadJP6_11)">
+      <node ref="U1" pin="JP6_11" pinfunction="MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="unconnected-(U1-RAW-PadJP6_1)">
+      <node ref="U1" pin="JP6_1" pinfunction="RAW" pintype="power_in"/>
+    </net>
+    <net code="97" name="unconnected-(U1-RST_1-PadJP6_3)">
+      <node ref="U1" pin="JP6_3" pinfunction="RST_1" pintype="input"/>
+    </net>
+    <net code="98" name="unconnected-(U1-RST_2-PadJP7_10)">
+      <node ref="U1" pin="JP7_10" pinfunction="RST_2" pintype="input"/>
+    </net>
+    <net code="99" name="unconnected-(U1-RXI-PadJP1_3)">
+      <node ref="U1" pin="JP1_3" pinfunction="RXI" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="unconnected-(U1-RXI_2-PadJP7_11)">
+      <node ref="U1" pin="JP7_11" pinfunction="RXI_2" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="unconnected-(U1-SCK-PadJP6_9)">
+      <node ref="U1" pin="JP6_9" pinfunction="SCK" pintype="bidirectional"/>
+    </net>
+    <net code="102" name="unconnected-(U1-TXO-PadJP1_2)">
+      <node ref="U1" pin="JP1_2" pinfunction="TXO" pintype="bidirectional"/>
+    </net>
+    <net code="103" name="unconnected-(U1-TXO_2-PadJP7_12)">
+      <node ref="U1" pin="JP7_12" pinfunction="TXO_2" pintype="bidirectional"/>
+    </net>
+    <net code="104" name="unconnected-(U1-VCC-PadJP1_4)">
+      <node ref="U1" pin="JP1_4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="105" name="unconnected-(U2-A3-PadJP6_5)">
+      <node ref="U2" pin="JP6_5" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="unconnected-(U2-A4-PadJP2_1)">
+      <node ref="U2" pin="JP2_1" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="107" name="unconnected-(U2-A5-PadJP2_2)">
+      <node ref="U2" pin="JP2_2" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="108" name="unconnected-(U2-A6-PadJP3_1)">
+      <node ref="U2" pin="JP3_1" pinfunction="A6" pintype="input"/>
+    </net>
+    <net code="109" name="unconnected-(U2-A7-PadJP3_2)">
+      <node ref="U2" pin="JP3_2" pinfunction="A7" pintype="input"/>
+    </net>
+    <net code="110" name="unconnected-(U2-D6-PadJP7_4)">
+      <node ref="U2" pin="JP7_4" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="111" name="unconnected-(U2-D10-PadJP6_12)">
+      <node ref="U2" pin="JP6_12" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="112" name="unconnected-(U2-DTR-PadJP1_1)">
+      <node ref="U2" pin="JP1_1" pinfunction="DTR" pintype="input"/>
+    </net>
+    <net code="113" name="unconnected-(U2-MISO-PadJP6_10)">
+      <node ref="U2" pin="JP6_10" pinfunction="MISO" pintype="bidirectional"/>
+    </net>
+    <net code="114" name="unconnected-(U2-MOSI-PadJP6_11)">
+      <node ref="U2" pin="JP6_11" pinfunction="MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="115" name="unconnected-(U2-RAW-PadJP6_1)">
+      <node ref="U2" pin="JP6_1" pinfunction="RAW" pintype="power_in"/>
+    </net>
+    <net code="116" name="unconnected-(U2-RST_1-PadJP6_3)">
+      <node ref="U2" pin="JP6_3" pinfunction="RST_1" pintype="input"/>
+    </net>
+    <net code="117" name="unconnected-(U2-RST_2-PadJP7_10)">
+      <node ref="U2" pin="JP7_10" pinfunction="RST_2" pintype="input"/>
+    </net>
+    <net code="118" name="unconnected-(U2-RXI-PadJP1_3)">
+      <node ref="U2" pin="JP1_3" pinfunction="RXI" pintype="bidirectional"/>
+    </net>
+    <net code="119" name="unconnected-(U2-RXI_2-PadJP7_11)">
+      <node ref="U2" pin="JP7_11" pinfunction="RXI_2" pintype="bidirectional"/>
+    </net>
+    <net code="120" name="unconnected-(U2-SCK-PadJP6_9)">
+      <node ref="U2" pin="JP6_9" pinfunction="SCK" pintype="bidirectional"/>
+    </net>
+    <net code="121" name="unconnected-(U2-TXO-PadJP1_2)">
+      <node ref="U2" pin="JP1_2" pinfunction="TXO" pintype="bidirectional"/>
+    </net>
+    <net code="122" name="unconnected-(U2-TXO_2-PadJP7_12)">
+      <node ref="U2" pin="JP7_12" pinfunction="TXO_2" pintype="bidirectional"/>
+    </net>
+    <net code="123" name="unconnected-(U2-VCC-PadJP1_4)">
+      <node ref="U2" pin="JP1_4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="124" name="unconnected-(U5-A2-PadJP6_6)">
+      <node ref="U5" pin="JP6_6" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="125" name="unconnected-(U5-A3-PadJP6_5)">
+      <node ref="U5" pin="JP6_5" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="126" name="unconnected-(U5-A4-PadJP2_1)">
+      <node ref="U5" pin="JP2_1" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="127" name="unconnected-(U5-A5-PadJP2_2)">
+      <node ref="U5" pin="JP2_2" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="128" name="unconnected-(U5-A6-PadJP3_1)">
+      <node ref="U5" pin="JP3_1" pinfunction="A6" pintype="input"/>
+    </net>
+    <net code="129" name="unconnected-(U5-A7-PadJP3_2)">
+      <node ref="U5" pin="JP3_2" pinfunction="A7" pintype="input"/>
+    </net>
+    <net code="130" name="unconnected-(U5-D5-PadJP7_5)">
+      <node ref="U5" pin="JP7_5" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="131" name="unconnected-(U5-D6-PadJP7_4)">
+      <node ref="U5" pin="JP7_4" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="132" name="unconnected-(U5-D7-PadJP7_3)">
+      <node ref="U5" pin="JP7_3" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="133" name="unconnected-(U5-D8-PadJP7_2)">
+      <node ref="U5" pin="JP7_2" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="134" name="unconnected-(U5-D10-PadJP6_12)">
+      <node ref="U5" pin="JP6_12" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="135" name="unconnected-(U5-DTR-PadJP1_1)">
+      <node ref="U5" pin="JP1_1" pinfunction="DTR" pintype="input"/>
+    </net>
+    <net code="136" name="unconnected-(U5-MISO-PadJP6_10)">
+      <node ref="U5" pin="JP6_10" pinfunction="MISO" pintype="bidirectional"/>
+    </net>
+    <net code="137" name="unconnected-(U5-MOSI-PadJP6_11)">
+      <node ref="U5" pin="JP6_11" pinfunction="MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="138" name="unconnected-(U5-RAW-PadJP6_1)">
+      <node ref="U5" pin="JP6_1" pinfunction="RAW" pintype="power_in"/>
+    </net>
+    <net code="139" name="unconnected-(U5-RST_1-PadJP6_3)">
+      <node ref="U5" pin="JP6_3" pinfunction="RST_1" pintype="input"/>
+    </net>
+    <net code="140" name="unconnected-(U5-RST_2-PadJP7_10)">
+      <node ref="U5" pin="JP7_10" pinfunction="RST_2" pintype="input"/>
+    </net>
+    <net code="141" name="unconnected-(U5-RXI-PadJP1_3)">
+      <node ref="U5" pin="JP1_3" pinfunction="RXI" pintype="bidirectional"/>
+    </net>
+    <net code="142" name="unconnected-(U5-RXI_2-PadJP7_11)">
+      <node ref="U5" pin="JP7_11" pinfunction="RXI_2" pintype="bidirectional"/>
+    </net>
+    <net code="143" name="unconnected-(U5-SCK-PadJP6_9)">
+      <node ref="U5" pin="JP6_9" pinfunction="SCK" pintype="bidirectional"/>
+    </net>
+    <net code="144" name="unconnected-(U5-TXO-PadJP1_2)">
+      <node ref="U5" pin="JP1_2" pinfunction="TXO" pintype="bidirectional"/>
+    </net>
+    <net code="145" name="unconnected-(U5-TXO_2-PadJP7_12)">
+      <node ref="U5" pin="JP7_12" pinfunction="TXO_2" pintype="bidirectional"/>
+    </net>
+    <net code="146" name="unconnected-(U5-VCC-PadJP1_4)">
+      <node ref="U5" pin="JP1_4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
