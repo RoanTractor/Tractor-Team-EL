@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Motherboard_2023-rescue")(type "KiCad")(uri "${KIPRJMOD}/Motherboard_2023-rescue.kicad_sym")(options "")(descr ""))
-)

@@ -1,0 +1,191 @@
+================================= Messages =================================
+
+  ------------------------------------------------------------------------
+
+  Name:           LINAK_PROPB
+  Id:             0xff0000
+      Priority:       0
+      PGN:            0x0ff00
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     - ms
+  Senders:        -
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         1 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- LINAK_feedbackPosition
+           +---+---+---+---+---+---+---+---+
+         2 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- LINAK_feedbackCurrent
+           +---+---+---+---+---+---+---+---+
+         3 |   |   |   |<-x|<-x|<-x|<-x|<-x|
+           +---+---+---+---+---+---+---+---+
+                         |   |   |   |   +-- LINAK_feedbackEosIn
+                         |   |   |   +-- LINAK_feedbackEosOut
+     B                   |   |   +-- LINAK_feedbackOvercurrent
+     y                   |   +-- LINAK_feedbackRunningOut
+     t                   +-- LINAK_feedbackRunningIn
+     e     +---+---+---+---+---+---+---+---+
+         4 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- LINAK_feedbackErrorCode
+           +---+---+---+---+---+---+---+---+
+         5 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |   |<--------------|
+           +---+---+---+---+---+---+---+---+
+                             +-- LINAK_feedbackSpeed
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |<-----x|<-----x|<-----x|
+           +---+---+---+---+---+---+---+---+
+                     |       |       +-- LINAK_feedbackInputState1
+                     |       +-- LINAK_feedbackInputState2
+                     +-- LINAK_feedbackInputState3
+
+  Signal tree:
+
+    -- {root}
+       +-- LINAK_feedbackPosition
+       +-- LINAK_feedbackCurrent
+       +-- LINAK_feedbackEosIn
+       +-- LINAK_feedbackEosOut
+       +-- LINAK_feedbackOvercurrent
+       +-- LINAK_feedbackRunningOut
+       +-- LINAK_feedbackRunningIn
+       +-- LINAK_feedbackErrorCode
+       +-- LINAK_feedbackSpeed
+       +-- LINAK_feedbackInputState1
+       +-- LINAK_feedbackInputState2
+       +-- LINAK_feedbackInputState3
+
+  Signal choices:
+
+    LINAK_feedbackPosition
+        65024 Position Lost
+
+    LINAK_feedbackCurrent
+        254 Fault in current measurement
+
+    LINAK_feedbackErrorCode
+        0 No Error
+        1 Hall Error
+        2 Overvoltage
+        3 Undervoltage
+        4 Command Timeout
+        5 EOS Error
+        6 Need Stop Command
+        7 Temperature Error
+        8 Heartbeat Error
+        9 SMPS Error
+        10 Current Measurement Error
+        11 Parallel Arbitration In Progress
+        249 Internal Error
+        250 External Error
+
+    LINAK_feedbackInputState1
+        0 <= 25%
+        1 <= 50%
+        2 <= 75%
+        3 <= 100%
+
+    LINAK_feedbackInputState2
+        0 <= 25%
+        1 <= 50%
+        2 <= 75%
+        3 <= 100%
+
+    LINAK_feedbackInputState3
+        0 <= 25%
+        1 <= 50%
+        2 <= 75%
+        3 <= 100%
+
+  ------------------------------------------------------------------------
+
+  Name:           LINAK_PROPA
+  Id:             0xef0000
+      Priority:       0
+      PGN:            0x0ef00
+      Source:         0x00
+      Destination:    0x00
+      Format:         PDU 1
+  Length:         8 bytes
+  Cycle time:     - ms
+  Senders:        -
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         1 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- LINAK_commandPosition
+           +---+---+---+---+---+---+---+---+
+         2 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- LINAK_commandCurrent
+           +---+---+---+---+---+---+---+---+
+     B   3 |<-----------------------------x|
+     y     +---+---+---+---+---+---+---+---+
+     t       +-- LINAK_commandSpeed
+     e     +---+---+---+---+---+---+---+---+
+         4 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- LINAK_commandSoftStart
+           +---+---+---+---+---+---+---+---+
+         5 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- LINAK_commandSoftStop
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+
+  Signal tree:
+
+    -- {root}
+       +-- LINAK_commandPosition
+       +-- LINAK_commandCurrent
+       +-- LINAK_commandSpeed
+       +-- LINAK_commandSoftStart
+       +-- LINAK_commandSoftStop
+
+  Signal choices:
+
+    LINAK_commandPosition
+        64256 Clear Error Code
+        64257 Run Out
+        64258 Run In
+        64259 Stop
+        64260 Recovery Run Out
+        64261 Recovery Run In
+
+    LINAK_commandCurrent
+        251 Actuator Default
+
+    LINAK_commandSpeed
+        251 Actuator Default
+
+    LINAK_commandSoftStart
+        251 Actuator Default
+        255 Actuator Default
+
+    LINAK_commandSoftStop
+        251 Actuator Default
+        255 Actuator Default
+
+  ------------------------------------------------------------------------

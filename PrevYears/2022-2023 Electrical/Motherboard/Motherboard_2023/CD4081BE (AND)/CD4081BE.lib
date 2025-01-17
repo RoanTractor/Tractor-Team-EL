@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# CD4081BE
+#
+DEF CD4081BE U 0 40 Y Y 1 L N
+F0 "U" -500 739 50 H V L BNN
+F1 "CD4081BE" -500 -857 50 H V L BNN
+F2 "DIP794W45P254L1969H508Q14" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+S -500 -700 500 700 0 0 16 f
+X A 1 -700 400 200 R 40 40 0 0 I 
+X B 2 -700 300 200 R 40 40 0 0 I 
+X C 5 -700 200 200 R 40 40 0 0 I 
+X D 6 -700 100 200 R 40 40 0 0 I 
+X E 8 -700 0 200 R 40 40 0 0 I 
+X F 9 -700 -100 200 R 40 40 0 0 I 
+X G 12 -700 -200 200 R 40 40 0 0 I 
+X H 13 -700 -300 200 R 40 40 0 0 I 
+X VDD 14 700 600 200 L 40 40 0 0 W 
+X J=A.B 3 700 400 200 L 40 40 0 0 O 
+X K=C.D 4 700 300 200 L 40 40 0 0 O 
+X L=E.F 10 700 200 200 L 40 40 0 0 O 
+X M=G.M 11 700 100 200 L 40 40 0 0 O 
+X VSS 7 700 -600 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

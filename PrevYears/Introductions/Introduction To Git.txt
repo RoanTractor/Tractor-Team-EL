@@ -1,0 +1,27 @@
+
+Welcome To Github
+
+Make your first commit
+
+FIRST COMMIT
+	Create an account
+	Download Git Bash from https://git-scm.com/downloads
+	Right click on your desktop and open git bash
+	
+	git clone (link to repo)
+	make a change (first one can be created a text file "name_file"
+	
+	git add (this document)
+
+	git pull (to get yourself up to date with other people's changes)
+
+	git commit -m "message for commit"
+
+	git push (pushes to the repo)
+	
+	>>You will likely be prompted to log in if this is your first commit.
+	There will be a login screen, and you can click it and log in through your browser.
+	This will link your Github account to the Git Bash on your computer.
+
+	
+	

@@ -1,0 +1,192 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "901cb2d4-20ee-405e-8da7-271519f1dbd8")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 137.16 80.01)
+		(size 19.05 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 75 0 0.3000)
+		)
+		(uuid "85e0d06f-74ec-4845-830e-182fc5b19cb9")
+		(property "Sheetname" "Arduino"
+			(at 137.16 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Arduino.kicad_sch"
+			(at 137.16 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 137.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CANBOARD_REV2"
+				(path "/901cb2d4-20ee-405e-8da7-271519f1dbd8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 100.33)
+		(size 19.05 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 75 0 0.3020)
+		)
+		(uuid "8cfeb571-3295-404a-b0ef-cb60410d7335")
+		(property "Sheetname" "Throttle"
+			(at 107.95 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Throttle.kicad_sch"
+			(at 107.95 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CANBOARD_REV2"
+				(path "/901cb2d4-20ee-405e-8da7-271519f1dbd8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 80.01)
+		(size 19.05 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 75 0 0.3020)
+		)
+		(uuid "e05b6d24-f27e-4b93-a064-9af132f713bd")
+		(property "Sheetname" "Input_Power"
+			(at 107.95 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Input_Power.kicad_sch"
+			(at 107.95 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CANBOARD_REV2"
+				(path "/901cb2d4-20ee-405e-8da7-271519f1dbd8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 100.33)
+		(size 19.05 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 75 0 0.3020)
+		)
+		(uuid "fd28bc2f-03c2-4c2b-9a10-5aad159610c3")
+		(property "Sheetname" "Safety Circuitry"
+			(at 137.16 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Safety_Circuitry.kicad_sch"
+			(at 137.16 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CANBOARD_REV2"
+				(path "/901cb2d4-20ee-405e-8da7-271519f1dbd8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

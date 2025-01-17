@@ -1,0 +1,2272 @@
+C:\Users\dayle>cantools dump "C:\Users\dayle\Downloads\j1939_M4LXE_KAUA1700_v1_4_Applications.dbc"
+================================= Messages =================================
+
+  ------------------------------------------------------------------------
+
+  Name:           CEI3
+  Id:             0x18ff0200
+      Priority:       6
+      PGN:            0x0ff02
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     50 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |   |   |   |   |   |   |   |<-x|
+           +---+---+---+---+---+---+---+---+
+                                         +-- SPN519000
+           +---+---+---+---+---+---+---+---+
+         1 |   |   |   |   |   |   |   |<-x|
+           +---+---+---+---+---+---+---+---+
+                                         +-- SPN519001
+           +---+---+---+---+---+---+---+---+
+         2 |   |   |   |   |   |   |   |<-x|
+     B     +---+---+---+---+---+---+---+---+
+     y                                   +-- SPN519002
+     t     +---+---+---+---+---+---+---+---+
+     e   3 |   |   |   |   |   |   |   |<-x|
+           +---+---+---+---+---+---+---+---+
+                                         +-- SPN519003
+           +---+---+---+---+---+---+---+---+
+         4 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         5 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+
+  Signal tree:
+
+    -- {root}
+       +-- SPN519000
+       +-- SPN519001
+       +-- SPN519002
+       +-- SPN519003
+
+  ------------------------------------------------------------------------
+
+  Name:           DLCC1
+  Id:             0x18fd0700
+      Priority:       6
+      PGN:            0x0fd07
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     1000 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |<-----x|<-----x|<-----x|<-----x|
+           +---+---+---+---+---+---+---+---+
+             |       |       |       +-- SPN5077
+             |       |       +-- SPN5078
+             |       +-- SPN5079
+             +-- SPN5080
+           +---+---+---+---+---+---+---+---+
+         1 |<-----x|<-----x|<-----x|<-----x|
+           +---+---+---+---+---+---+---+---+
+             |       |       |       +-- SPN5081
+             |       |       +-- SPN3987
+             |       +-- SPN5082
+             +-- SPN5083
+     B     +---+---+---+---+---+---+---+---+
+     y   2 |<-----x|<-----x|<-----x|<-----x|
+     t     +---+---+---+---+---+---+---+---+
+     e       |       |       |       +-- SPN5084
+             |       |       +-- SPN5085
+             |       +-- SPN5086
+             +-- SPN5469
+           +---+---+---+---+---+---+---+---+
+         3 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         4 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         5 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+
+  Signal tree:
+
+    -- {root}
+       +-- SPN5077
+       +-- SPN5078
+       +-- SPN5079
+       +-- SPN5080
+       +-- SPN5081
+       +-- SPN3987
+       +-- SPN5082
+       +-- SPN5083
+       +-- SPN5084
+       +-- SPN5085
+       +-- SPN5086
+       +-- SPN5469
+
+  ------------------------------------------------------------------------
+
+  Name:           IC2
+  Id:             0x18fdd000
+      Priority:       6
+      PGN:            0x0fdd0
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     500 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngAirFilter2DiffPress
+           +---+---+---+---+---+---+---+---+
+         1 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngAirFilter3DiffPress
+           +---+---+---+---+---+---+---+---+
+         2 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+     B       +-- EngAirFilter4DiffPress
+     y     +---+---+---+---+---+---+---+---+
+     t   3 |<-----------------------------x|
+     e     +---+---+---+---+---+---+---+---+
+             +-- EngIntakeManifold2Press
+           +---+---+---+---+---+---+---+---+
+         4 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngIntakeManifold1AbsPress
+           +---+---+---+---+---+---+---+---+
+         5 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+
+  Signal tree:
+
+    -- {root}
+       +-- EngAirFilter2DiffPress
+       +-- EngAirFilter3DiffPress
+       +-- EngAirFilter4DiffPress
+       +-- EngIntakeManifold2Press
+       +-- EngIntakeManifold1AbsPress
+
+  ------------------------------------------------------------------------
+
+  Name:           IC1
+  Id:             0x18fef600
+      Priority:       6
+      PGN:            0x0fef6
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     500 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngParticulateTrapInletPress
+           +---+---+---+---+---+---+---+---+
+         1 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngTurboBoostPress
+           +---+---+---+---+---+---+---+---+
+         2 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngIntakeManifold1Temp
+           +---+---+---+---+---+---+---+---+
+     B   3 |<-----------------------------x|
+     y     +---+---+---+---+---+---+---+---+
+     t       +-- EngAirInletPress
+     e     +---+---+---+---+---+---+---+---+
+         4 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngAirFilter1DiffPress
+           +---+---+---+---+---+---+---+---+
+         5 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         6 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- EngExhaustGasTemp
+           +---+---+---+---+---+---+---+---+
+         7 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngCoolantFilterDiffPress
+
+  Signal tree:
+
+    -- {root}
+       +-- EngParticulateTrapInletPress
+       +-- EngTurboBoostPress
+       +-- EngIntakeManifold1Temp
+       +-- EngAirInletPress
+       +-- EngAirFilter1DiffPress
+       +-- EngExhaustGasTemp
+       +-- EngCoolantFilterDiffPress
+
+  ------------------------------------------------------------------------
+
+  Name:           TFAC
+  Id:             0x10f01a00
+      Priority:       4
+      PGN:            0x0f01a
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     50 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         1 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- EngThrottleActuator1CtrlCmd
+           +---+---+---+---+---+---+---+---+
+         2 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         3 |<------------------------------|
+     B     +---+---+---+---+---+---+---+---+
+     y       +-- EngThrottleActuator2CtrlCmd
+     t     +---+---+---+---+---+---+---+---+
+     e   4 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         5 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- EngFuelActuator1CtrlCmd
+           +---+---+---+---+---+---+---+---+
+         6 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         7 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- EngFuelActuator2CtrlCmd
+
+  Signal tree:
+
+    -- {root}
+       +-- EngThrottleActuator1CtrlCmd
+       +-- EngThrottleActuator2CtrlCmd
+       +-- EngFuelActuator1CtrlCmd
+       +-- EngFuelActuator2CtrlCmd
+
+  ------------------------------------------------------------------------
+
+  Name:           TSC1
+  Id:             0xc000000
+      Priority:       3
+      PGN:            0x00000
+      Source:         0x00
+      Destination:    0x00
+      Format:         PDU 1
+  Length:         8 bytes
+  Cycle time:     - ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |   |   |<-----x|<-----x|<-----x|
+           +---+---+---+---+---+---+---+---+
+                     |       |       +-- EngOverrideCtrlMode
+                     |       +-- EngRqedSpeedCtrlConditions
+                     +-- OverrideCtrlModePriority
+           +---+---+---+---+---+---+---+---+
+         1 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         2 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- EngRqedSpeed_SpeedLimit
+           +---+---+---+---+---+---+---+---+
+         3 |<-----------------------------x|
+     B     +---+---+---+---+---+---+---+---+
+     y       +-- EngRqedTorque_TorqueLimit
+     t     +---+---+---+---+---+---+---+---+
+     e   4 |<-----------------x|<---------x|
+           +---+---+---+---+---+---+---+---+
+             |                   +-- TransmissionRate
+             +-- ControlPurpose
+           +---+---+---+---+---+---+---+---+
+         5 |   |   |   |   |<-------------x|
+           +---+---+---+---+---+---+---+---+
+                             +-- EngineRequestedTorqueHiRes
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         7 |<-------------x|<-------------x|
+           +---+---+---+---+---+---+---+---+
+             |               +-- TSC1counter
+             +-- TSC1checksum
+
+  Signal tree:
+
+    -- {root}
+       +-- EngOverrideCtrlMode
+       +-- EngRqedSpeedCtrlConditions
+       +-- OverrideCtrlModePriority
+       +-- EngRqedSpeed_SpeedLimit
+       +-- EngRqedTorque_TorqueLimit
+       +-- TransmissionRate
+       +-- ControlPurpose
+       +-- EngineRequestedTorqueHiRes
+       +-- TSC1counter
+       +-- TSC1checksum
+
+  Signal choices:
+
+    EngOverrideCtrlMode
+        0 OvrrdDsbldDsblAnyExstngCtrlCmdd
+        1 SpdCtrlGvrnSpdTInclddDsrdSpdVle
+        2 TrqCtrlCntrlTrqTInclddDsrdTrqVl
+        3 Spd_TrqLmtCtrlLmtSpdAnd_OrTrqBs
+
+    EngRqedSpeedCtrlConditions
+        0 ThsSpdGvrnrGnSlctnIsAdjstdTPrvd
+        1 StbltyOptmzdFrDrvlnDsnggdAndNnl
+        2 ThsCtrlCndtnHsBnOptmzdTMnmzRpmO
+        3 StbltyOptmzdFrDrvlnEnggdAnd_OrI
+
+    OverrideCtrlModePriority
+        0 HghstPrrtyUsdFrSttnsThtRqrImmdt
+        1 HighPriority
+        2 MdmPrrtyUsdFrPwrtrnCtrlOprtnsWh
+        3 LowPriority
+
+    TransmissionRate
+        0 1000ms
+        1 750ms
+        2 500ms
+        3 250ms
+        4 100ms
+        5 50ms
+        6 25ms
+        7 UseStandardRate
+
+    ControlPurpose
+        0 AcceleratorPedal
+        1 CruiseControl
+        2 PTOGovernor
+        3 RoadSpeedGovernor
+        4 EngineProtection
+        5 TemporaryPowerTrainControl
+
+  ------------------------------------------------------------------------
+
+  Name:           LFE
+  Id:             0x18fef200
+      Priority:       6
+      PGN:            0x0fef2
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     100 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         1 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- EngFuelRate
+           +---+---+---+---+---+---+---+---+
+         2 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         3 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+     B       +-- EngInstantaneousFuelEconomy
+     y     +---+---+---+---+---+---+---+---+
+     t   4 |------------------------------x|
+     e     +---+---+---+---+---+---+---+---+
+         5 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- EngAverageFuelEconomy
+           +---+---+---+---+---+---+---+---+
+         6 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngThrottlePos
+           +---+---+---+---+---+---+---+---+
+         7 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngThrottle2Pos
+
+  Signal tree:
+
+    -- {root}
+       +-- EngFuelRate
+       +-- EngInstantaneousFuelEconomy
+       +-- EngAverageFuelEconomy
+       +-- EngThrottlePos
+       +-- EngThrottle2Pos
+
+  ------------------------------------------------------------------------
+
+  Name:           FD
+  Id:             0x18febd00
+      Priority:       6
+      PGN:            0x0febd
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     1000 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EstPercentFanSpeed
+           +---+---+---+---+---+---+---+---+
+         1 |   |   |   |   |<-------------x|
+           +---+---+---+---+---+---+---+---+
+                             +-- FanDriveState
+           +---+---+---+---+---+---+---+---+
+     B   2 |------------------------------x|
+     y     +---+---+---+---+---+---+---+---+
+     t   3 |<------------------------------|
+     e     +---+---+---+---+---+---+---+---+
+             +-- FanSpeed
+           +---+---+---+---+---+---+---+---+
+         4 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         5 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+
+  Signal tree:
+
+    -- {root}
+       +-- EstPercentFanSpeed
+       +-- FanDriveState
+       +-- FanSpeed
+
+  Signal choices:
+
+    FanDriveState
+        0 FanOff
+        1 EngSystemGeneral
+        2 ExcessiveEngAirTemp
+        3 ExcessiveEngOilTemp
+        4 ExcessiveEngCoolantTemp
+        5 ExcessiveTransOilTemp
+        6 ExcessiveHydOilTemp
+        7 DefaultOperation
+        8 NotDefined
+        9 ManualCtrl
+        10 TransRetarder
+        11 A_CSystem
+        12 Timer
+        13 EngBrake
+        14 Other
+        15 NotAvailable
+
+  ------------------------------------------------------------------------
+
+  Name:           ET1
+  Id:             0x18feee00
+      Priority:       6
+      PGN:            0x0feee
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     1000 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngCoolantTemp
+           +---+---+---+---+---+---+---+---+
+         1 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngFuelTemp
+           +---+---+---+---+---+---+---+---+
+         2 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         3 |<------------------------------|
+     B     +---+---+---+---+---+---+---+---+
+     y       +-- EngOilTemp1
+     t     +---+---+---+---+---+---+---+---+
+     e   4 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         5 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- EngTurboOilTemp
+           +---+---+---+---+---+---+---+---+
+         6 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngIntercoolerTemp
+           +---+---+---+---+---+---+---+---+
+         7 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngIntercoolerThermostatOpening
+
+  Signal tree:
+
+    -- {root}
+       +-- EngCoolantTemp
+       +-- EngFuelTemp
+       +-- EngOilTemp1
+       +-- EngTurboOilTemp
+       +-- EngIntercoolerTemp
+       +-- EngIntercoolerThermostatOpening
+
+  ------------------------------------------------------------------------
+
+  Name:           EFL_P1
+  Id:             0x18feef00
+      Priority:       6
+      PGN:            0x0feef
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     500 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngFuelDeliveryPress
+           +---+---+---+---+---+---+---+---+
+         1 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngExCrankcaseBlowbyPress
+           +---+---+---+---+---+---+---+---+
+         2 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngOilLevel
+           +---+---+---+---+---+---+---+---+
+     B   3 |<-----------------------------x|
+     y     +---+---+---+---+---+---+---+---+
+     t       +-- EngOilPress
+     e     +---+---+---+---+---+---+---+---+
+         4 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         5 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- EngCrankcasePress
+           +---+---+---+---+---+---+---+---+
+         6 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngCoolantPress
+           +---+---+---+---+---+---+---+---+
+         7 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngCoolantLevel
+
+  Signal tree:
+
+    -- {root}
+       +-- EngFuelDeliveryPress
+       +-- EngExCrankcaseBlowbyPress
+       +-- EngOilLevel
+       +-- EngOilPress
+       +-- EngCrankcasePress
+       +-- EngCoolantPress
+       +-- EngCoolantLevel
+
+  ------------------------------------------------------------------------
+
+  Name:           EEC2
+  Id:             0xcf00300
+      Priority:       3
+      PGN:            0x0f003
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     50 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |<-----x|<-----x|<-----x|<-----x|
+           +---+---+---+---+---+---+---+---+
+             |       |       |       +-- AccelPedal1LowIdleSwitch
+             |       |       +-- AccelPedalKickdownSwitch
+             |       +-- RoadSpeedLimitStatus
+             +-- AccelPedal2LowIdleSwitch
+           +---+---+---+---+---+---+---+---+
+         1 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- AccelPedalPos1
+           +---+---+---+---+---+---+---+---+
+         2 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngPercentLoadAtCurrentSpeed
+     B     +---+---+---+---+---+---+---+---+
+     y   3 |<-----------------------------x|
+     t     +---+---+---+---+---+---+---+---+
+     e       +-- RemoteAccelPedalPos
+           +---+---+---+---+---+---+---+---+
+         4 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- AccelPedalPos2
+           +---+---+---+---+---+---+---+---+
+         5 |   |   |   |   |   |   |<-----x|
+           +---+---+---+---+---+---+---+---+
+                                     +-- VhclAccelerationRateLimitStatus
+           +---+---+---+---+---+---+---+---+
+         6 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- ActMaxAvailEngPercentTorque
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+
+  Signal tree:
+
+    -- {root}
+       +-- AccelPedal1LowIdleSwitch
+       +-- AccelPedalKickdownSwitch
+       +-- RoadSpeedLimitStatus
+       +-- AccelPedal2LowIdleSwitch
+       +-- AccelPedalPos1
+       +-- EngPercentLoadAtCurrentSpeed
+       +-- RemoteAccelPedalPos
+       +-- AccelPedalPos2
+       +-- VhclAccelerationRateLimitStatus
+       +-- ActMaxAvailEngPercentTorque
+
+  Signal choices:
+
+    AccelPedal1LowIdleSwitch
+        0 AcclPedal1NotInLowIdleCondition
+        1 AccelPedal1InLowIdleCondition
+        2 Error
+        3 NotAvailable
+
+    AccelPedalKickdownSwitch
+        0 KickdownPassive
+        1 KickdownActive
+        2 Error
+        3 NotAvailable
+
+    RoadSpeedLimitStatus
+        0 Active
+        1 NotActive
+        2 Error
+        3 NotAvailable
+
+    AccelPedal2LowIdleSwitch
+        0 AcclPedal2NotInLowIdleCondition
+        1 AccelPedal2InLowIdleCondition
+        2 Error
+        3 NotAvailable
+
+    VhclAccelerationRateLimitStatus
+        0 LimitNotActive
+        1 LimitActive
+        2 Reserved
+        3 NotAvailable
+
+  ------------------------------------------------------------------------
+
+  Name:           EEC1
+  Id:             0xcf00400
+      Priority:       3
+      PGN:            0x0f004
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     100 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |<-------------x|<-------------x|
+           +---+---+---+---+---+---+---+---+
+             |               +-- EngTorqueMode
+             +-- ActualEnginePercentTorqueHiRes
+           +---+---+---+---+---+---+---+---+
+         1 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- DriversDemandEngPercentTorque
+           +---+---+---+---+---+---+---+---+
+         2 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- ActualEngPercentTorque
+     B     +---+---+---+---+---+---+---+---+
+     y   3 |------------------------------x|
+     t     +---+---+---+---+---+---+---+---+
+     e   4 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- EngSpeed
+           +---+---+---+---+---+---+---+---+
+         5 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- SrcAddrssOfCtrllngDvcForEngCtrl
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |   |<-------------x|
+           +---+---+---+---+---+---+---+---+
+                             +-- EngStarterMode
+           +---+---+---+---+---+---+---+---+
+         7 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngDemandPercentTorque
+
+  Signal tree:
+
+    -- {root}
+       +-- EngTorqueMode
+       +-- ActualEnginePercentTorqueHiRes
+       +-- DriversDemandEngPercentTorque
+       +-- ActualEngPercentTorque
+       +-- EngSpeed
+       +-- SrcAddrssOfCtrllngDvcForEngCtrl
+       +-- EngStarterMode
+       +-- EngDemandPercentTorque
+
+  Signal choices:
+
+    EngTorqueMode
+        0 Low idle governor/no request (de
+        1 Accelerator pedal/operator selec
+        2 Cruise control
+        3 PTO governor
+        4 Road speed governor
+        5 ASR control
+        6 Transmission control
+        7 ABS control
+        8 Torque limiting
+        9 High speed governor
+        10 Braking system
+        11 Remote accelerator
+        15 Not available
+
+    EngStarterMode
+        0 startNotRqed
+        1 starterActiveGearNotEngaged
+        2 starterActiveGearEngaged
+        3 strtFnshdStrtrNtActvAftrHvngBnA
+        4 strtrInhbtdDToEngAlreadyRunning
+        5 strtrInhbtdDTEngNtReadyForStart
+        6 strtrInhbtdDTDrvlnEnggdOthrTrns
+        7 strtrInhbtdDToActiveImmobilizer
+        8 strtrInhbtdDueToStarterOvertemp
+        9 1011Reserved
+        12 starterInhibitedReasonUnknown
+        14 error
+        15 notAvailable
+
+  ------------------------------------------------------------------------
+
+  Name:           EC1
+  Id:             0x18fee300
+      Priority:       6
+      PGN:            0x0fee3
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         40 bytes
+  Cycle time:     - ms
+  Senders:        Engine1
+  Layout:
+
+                           Bit
+
+              7   6   5   4   3   2   1   0
+            +---+---+---+---+---+---+---+---+
+          0 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+          1 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- EngSpeedAtIdlePoint1
+            +---+---+---+---+---+---+---+---+
+          2 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- EngPercentTorqueAtIdlePoint1
+            +---+---+---+---+---+---+---+---+
+          3 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+          4 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- EngSpeedAtPoint2
+            +---+---+---+---+---+---+---+---+
+          5 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- EngPercentTorqueAtPoint2
+            +---+---+---+---+---+---+---+---+
+          6 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+          7 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- EngSpeedAtPoint3
+            +---+---+---+---+---+---+---+---+
+          8 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- EngPercentTorqueAtPoint3
+            +---+---+---+---+---+---+---+---+
+          9 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         10 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- EngSpeedAtPoint4
+            +---+---+---+---+---+---+---+---+
+         11 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- EngPercentTorqueAtPoint4
+            +---+---+---+---+---+---+---+---+
+         12 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         13 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- EngSpeedAtPoint5
+            +---+---+---+---+---+---+---+---+
+         14 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- EngPercentTorqueAtPoint5
+            +---+---+---+---+---+---+---+---+
+         15 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         16 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- EngSpeedAtHighIdlePoint6
+            +---+---+---+---+---+---+---+---+
+         17 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         18 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- EngGainOfEndspeedGovernor
+            +---+---+---+---+---+---+---+---+
+         19 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+     B   20 |<------------------------------|
+     y      +---+---+---+---+---+---+---+---+
+     t        +-- EngReferenceTorque
+     e      +---+---+---+---+---+---+---+---+
+         21 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         22 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- EngMxMmntaryOverrideSpeedPoint7
+            +---+---+---+---+---+---+---+---+
+         23 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- EngMxMomentaryOverrideTimeLimit
+            +---+---+---+---+---+---+---+---+
+         24 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- EngRqedSpeedCtrlRangeLowerLimit
+            +---+---+---+---+---+---+---+---+
+         25 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- EngRqedSpeedCtrlRangeUpperLimit
+            +---+---+---+---+---+---+---+---+
+         26 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- EngRqdTorqueCtrlRangeLowerLimit
+            +---+---+---+---+---+---+---+---+
+         27 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- EngRqdTorqueCtrlRangeUpperLimit
+            +---+---+---+---+---+---+---+---+
+         28 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         29 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- EngExRngRqdSpdCtrlRngUpperLimit
+            +---+---+---+---+---+---+---+---+
+         30 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         31 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- EngMomentOfInertia
+            +---+---+---+---+---+---+---+---+
+         32 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         33 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- EngDefaultTorqueLimit
+            +---+---+---+---+---+---+---+---+
+         34 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- SupportVariableRateTSC1Message
+            +---+---+---+---+---+---+---+---+
+         35 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- SupportTSC1CtrlPurposeGroup1Of4
+            +---+---+---+---+---+---+---+---+
+         36 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- SupportTSC1CtrlPurposeGroup2Of4
+            +---+---+---+---+---+---+---+---+
+         37 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- SupportTSC1CtrlPurposeGroup3Of4
+            +---+---+---+---+---+---+---+---+
+         38 |<-----------------------------x|
+            +---+---+---+---+---+---+---+---+
+              +-- SupportTSC1CtrlPurposeGroup4Of4
+            +---+---+---+---+---+---+---+---+
+         39 |   |   |   |   |   |   |   |   |
+            +---+---+---+---+---+---+---+---+
+
+  Signal tree:
+
+    -- {root}
+       +-- EngSpeedAtIdlePoint1
+       +-- EngPercentTorqueAtIdlePoint1
+       +-- EngSpeedAtPoint2
+       +-- EngPercentTorqueAtPoint2
+       +-- EngSpeedAtPoint3
+       +-- EngPercentTorqueAtPoint3
+       +-- EngSpeedAtPoint4
+       +-- EngPercentTorqueAtPoint4
+       +-- EngSpeedAtPoint5
+       +-- EngPercentTorqueAtPoint5
+       +-- EngSpeedAtHighIdlePoint6
+       +-- EngGainOfEndspeedGovernor
+       +-- EngReferenceTorque
+       +-- EngMxMmntaryOverrideSpeedPoint7
+       +-- EngMxMomentaryOverrideTimeLimit
+       +-- EngRqedSpeedCtrlRangeLowerLimit
+       +-- EngRqedSpeedCtrlRangeUpperLimit
+       +-- EngRqdTorqueCtrlRangeLowerLimit
+       +-- EngRqdTorqueCtrlRangeUpperLimit
+       +-- EngExRngRqdSpdCtrlRngUpperLimit
+       +-- EngMomentOfInertia
+       +-- EngDefaultTorqueLimit
+       +-- SupportVariableRateTSC1Message
+       +-- SupportTSC1CtrlPurposeGroup1Of4
+       +-- SupportTSC1CtrlPurposeGroup2Of4
+       +-- SupportTSC1CtrlPurposeGroup3Of4
+       +-- SupportTSC1CtrlPurposeGroup4Of4
+
+  Signal choices:
+
+    SupportVariableRateTSC1Message
+        1 MsTransRate
+
+    SupportTSC1CtrlPurposeGroup1Of4
+        1 P1AccelPedal_OperatorSelection
+
+    SupportTSC1CtrlPurposeGroup2Of4
+        1 P9ReservedForAssignmentBySAE
+
+    SupportTSC1CtrlPurposeGroup3Of4
+        1 P17ReservedForAssignmentBySAE
+
+    SupportTSC1CtrlPurposeGroup4Of4
+        1 P25ReservedForAssignmentBySAE
+
+  ------------------------------------------------------------------------
+
+  Name:           DD
+  Id:             0x18fefc00
+      Priority:       6
+      PGN:            0x0fefc
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     1000 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- WasherFluidLevel
+           +---+---+---+---+---+---+---+---+
+         1 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- FuelLevel
+           +---+---+---+---+---+---+---+---+
+         2 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+     B       +-- EngFuelFilterDiffPress
+     y     +---+---+---+---+---+---+---+---+
+     t   3 |<-----------------------------x|
+     e     +---+---+---+---+---+---+---+---+
+             +-- EngOilFilterDiffPress
+           +---+---+---+---+---+---+---+---+
+         4 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         5 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- CargoAmbientTemp
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+
+  Signal tree:
+
+    -- {root}
+       +-- WasherFluidLevel
+       +-- FuelLevel
+       +-- EngFuelFilterDiffPress
+       +-- EngOilFilterDiffPress
+       +-- CargoAmbientTemp
+
+  ------------------------------------------------------------------------
+
+  Name:           CCVS
+  Id:             0x18fef100
+      Priority:       6
+      PGN:            0x0fef1
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     100 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |<-----x|<-----x|<-----x|<-----x|
+           +---+---+---+---+---+---+---+---+
+             |       |       |       +-- TwoSpeedAxleSwitch
+             |       |       +-- ParkingBrakeSwitch
+             |       +-- CruiseCtrlPauseSwitch
+             +-- ParkBrakeReleaseInhibitRq
+           +---+---+---+---+---+---+---+---+
+         1 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         2 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- WheelBasedVehicleSpeed
+           +---+---+---+---+---+---+---+---+
+         3 |<-----x|<-----x|<-----x|<-----x|
+           +---+---+---+---+---+---+---+---+
+             |       |       |       +-- CruiseCtrlActive
+             |       |       +-- CruiseCtrlEnableSwitch
+             |       +-- BrakeSwitch
+     B       +-- ClutchSwitch
+     y     +---+---+---+---+---+---+---+---+
+     t   4 |<-----x|<-----x|<-----x|<-----x|
+     e     +---+---+---+---+---+---+---+---+
+             |       |       |       +-- CruiseCtrlSetSwitch
+             |       |       +-- CruiseCtrlCoastSwitch
+             |       +-- CruiseCtrlResumeSwitch
+             +-- CruiseCtrlAccelerateSwitch
+           +---+---+---+---+---+---+---+---+
+         5 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- CruiseCtrlSetSpeed
+           +---+---+---+---+---+---+---+---+
+         6 |<---------x|<-----------------x|
+           +---+---+---+---+---+---+---+---+
+             |           +-- PTOState
+             +-- CruiseCtrlStates
+           +---+---+---+---+---+---+---+---+
+         7 |<-----x|<-----x|<-----x|<-----x|
+           +---+---+---+---+---+---+---+---+
+             |       |       |       +-- EngIdleIncrementSwitch
+             |       |       +-- EngIdleDecrementSwitch
+             |       +-- EngTestModeSwitch
+             +-- EngShutdownOverrideSwitch
+
+  Signal tree:
+
+    -- {root}
+       +-- TwoSpeedAxleSwitch
+       +-- ParkingBrakeSwitch
+       +-- CruiseCtrlPauseSwitch
+       +-- ParkBrakeReleaseInhibitRq
+       +-- WheelBasedVehicleSpeed
+       +-- CruiseCtrlActive
+       +-- CruiseCtrlEnableSwitch
+       +-- BrakeSwitch
+       +-- ClutchSwitch
+       +-- CruiseCtrlSetSwitch
+       +-- CruiseCtrlCoastSwitch
+       +-- CruiseCtrlResumeSwitch
+       +-- CruiseCtrlAccelerateSwitch
+       +-- CruiseCtrlSetSpeed
+       +-- PTOState
+       +-- CruiseCtrlStates
+       +-- EngIdleIncrementSwitch
+       +-- EngIdleDecrementSwitch
+       +-- EngTestModeSwitch
+       +-- EngShutdownOverrideSwitch
+
+  Signal choices:
+
+    TwoSpeedAxleSwitch
+        0 LowSpeedRange
+        1 HighSpeedRange
+        2 Error
+        3 NotAvailable
+
+    ParkingBrakeSwitch
+        0 ParkingBrakeNotSet
+        1 ParkingBrakeSet
+        2 Error
+        3 NotAvailable
+
+    CruiseCtrlPauseSwitch
+        0 Off
+        1 On
+        2 ErrorIndicator
+        3 TakeNoAction
+
+    ParkBrakeReleaseInhibitRq
+        0 ParkBrakeReleaseInhibitNotRqed
+        1 ParkBrakeReleaseInhibitRqed
+        2 SAEReserved
+        3 Unavailable
+
+    CruiseCtrlActive
+        0 CruiseCtrlSwitchedOff
+        1 CruiseCtrlSwitchedOn
+        2 Error
+        3 NotAvailable
+
+    CruiseCtrlEnableSwitch
+        0 CruiseCtrlDisabled
+        1 CruiseCtrlEnabled
+        2 Error
+        3 NotAvailable
+
+    BrakeSwitch
+        0 BrakePedalReleased
+        1 BrakePedalDepressed
+        2 Error
+        3 NotAvailable
+
+    ClutchSwitch
+        0 ClutchPedalReleased
+        1 ClutchPedalDepressed
+        2 Error
+        3 NotAvailable
+
+    CruiseCtrlSetSwitch
+        0 CruiseCtrlActivatorNotInPosSet
+        1 CruiseCtrlActivatorInPosSet
+        2 Error
+        3 NotAvailable
+
+    CruiseCtrlCoastSwitch
+        0 CriseCtrlActivatorNotInPosCoast
+        1 CruiseCtrlActivatorInPosCoast
+        2 Error
+        3 NotAvailable
+
+    CruiseCtrlResumeSwitch
+        0 CrseCtrlActivatorNotInPosResume
+        1 CruiseCtrlActivatorInPosResume
+        2 Error
+        3 NotAvailable
+
+    CruiseCtrlAccelerateSwitch
+        0 CrsCtrlActvtrNotInPosAccelerate
+        1 CrsCtrlActivatorInPosAccelerate
+        2 Error
+        3 NotAvailable
+
+    PTOState
+        0 Off_Disabled
+        1 Hold
+        2 RemoteHold
+        3 Standby
+        4 RemoteStandby
+        5 Set
+        6 Decelerate_Coast
+        7 Resume
+        8 Accelerate
+        9 AccelOverride
+        10 PreprogrammedSetSpeed1
+        11 PreprogrammedSetSpeed2
+        12 PreprogrammedSetSpeed3
+        13 PreprogrammedSetSpeed4
+        14 PreprogrammedSetSpeed5
+        15 PreprogrammedSetSpeed6
+        16 PreprogrammedSetSpeed7
+        17 PreprogrammedSetSpeed8
+        18 PTOSetSpeedMemory1
+        19 PTOSetSpeedMemory2
+        20 11110NotDefined
+        31 NotAvailable
+
+    EngIdleIncrementSwitch
+        0 Off
+        1 On
+        2 Error
+        3 NotAvailable
+
+    EngIdleDecrementSwitch
+        0 Off
+        1 On
+        2 Error
+        3 NotAvailable
+
+    EngTestModeSwitch
+        0 Off
+        1 On
+        2 Error
+        3 NotAvailable
+
+    EngShutdownOverrideSwitch
+        0 Off
+        1 On
+        2 Error
+        3 NotAvailable
+
+  ------------------------------------------------------------------------
+
+  Name:           AT1IG1
+  Id:             0x18f00e00
+      Priority:       6
+      PGN:            0x0f00e
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     50 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         1 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- Aftertreatment1IntakeNOx
+           +---+---+---+---+---+---+---+---+
+         2 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         3 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- Aftertreatment1IntakeO2
+           +---+---+---+---+---+---+---+---+
+         4 |<-----x|<-----x|<-----x|<-----x|
+     B     +---+---+---+---+---+---+---+---+
+     y       |       |       |       +-- Aftrtrtmnt1IntkGsSnsrPwrInRange
+     t       |       |       +-- Aftrtrtmnt1IntkeGasSensorAtTemp
+     e       |       +-- Aftrtrtmnt1IntkNOxReadingStable
+             +-- Aftrtrtmnt1IntkWdRngO2RdngStble
+           +---+---+---+---+---+---+---+---+
+         5 |   |<-----x|<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                 |       +-- Aftrtrtmnt1IntkGsSnsrHtrPrlmnryF
+                 +-- Aftrtrtmnt1IntkGsSnsrHeaterCtrl
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                         +-- Aftrtrtmnt1IntkNOxSnsrPrlmnryFMI
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                         +-- Aftrtrtmnt1IntkOxygnSnsrPrlmnryF
+
+  Signal tree:
+
+    -- {root}
+       +-- Aftertreatment1IntakeNOx
+       +-- Aftertreatment1IntakeO2
+       +-- Aftrtrtmnt1IntkGsSnsrPwrInRange
+       +-- Aftrtrtmnt1IntkeGasSensorAtTemp
+       +-- Aftrtrtmnt1IntkNOxReadingStable
+       +-- Aftrtrtmnt1IntkWdRngO2RdngStble
+       +-- Aftrtrtmnt1IntkGsSnsrHtrPrlmnryF
+       +-- Aftrtrtmnt1IntkGsSnsrHeaterCtrl
+       +-- Aftrtrtmnt1IntkNOxSnsrPrlmnryFMI
+       +-- Aftrtrtmnt1IntkOxygnSnsrPrlmnryF
+
+  Signal choices:
+
+    Aftrtrtmnt1IntkGsSnsrPwrInRange
+        0 NotInRange
+        1 InRange
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt1IntkNOxReadingStable
+        0 NotStable
+        1 Stable
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt1IntkWdRngO2RdngStble
+        0 NotStable
+        1 Stable
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt1IntkGsSnsrHeaterCtrl
+        0 Automatic
+        1 Preheat2
+        2 Preheat1
+        3 HeaterOff
+
+  ------------------------------------------------------------------------
+
+  Name:           AT1IG2
+  Id:             0x18fdb400
+      Priority:       6
+      PGN:            0x0fdb4
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     500 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         1 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- Aftertreatment1ExhaustGasTemp1
+           +---+---+---+---+---+---+---+---+
+         2 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         3 |<------------------------------|
+     B     +---+---+---+---+---+---+---+---+
+     y       +-- Aftrtrtmnt1PrtcltTrpIntkGasTemp
+     t     +---+---+---+---+---+---+---+---+
+     e   4 |   |   |   |<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                         +-- Aftrtrtmnt1ExhstGsTmp1PrlmnryFMI
+           +---+---+---+---+---+---+---+---+
+         5 |   |   |   |<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                         +-- Aftrtrtmnt1PrtcltTrpIntkGsTmpPrl
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+
+  Signal tree:
+
+    -- {root}
+       +-- Aftertreatment1ExhaustGasTemp1
+       +-- Aftrtrtmnt1PrtcltTrpIntkGasTemp
+       +-- Aftrtrtmnt1ExhstGsTmp1PrlmnryFMI
+       +-- Aftrtrtmnt1PrtcltTrpIntkGsTmpPrl
+
+  ------------------------------------------------------------------------
+
+  Name:           AT1OG1
+  Id:             0x18f00f00
+      Priority:       6
+      PGN:            0x0f00f
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     50 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         1 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- Aftertreatment1OutletNOx
+           +---+---+---+---+---+---+---+---+
+         2 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         3 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- Aftertreatment1OutletO2
+           +---+---+---+---+---+---+---+---+
+         4 |<-----x|<-----x|<-----x|<-----x|
+     B     +---+---+---+---+---+---+---+---+
+     y       |       |       |       +-- Aftrtrtmnt1OtltGsSnsrPwrInRange
+     t       |       |       +-- Aftrtrtmnt1OtletGasSensorAtTemp
+     e       |       +-- Aftrtrtmnt1OtltNOxReadingStable
+             +-- Aftrtrtmnt1OtltWdRngO2RdngStble
+           +---+---+---+---+---+---+---+---+
+         5 |   |<-----x|<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                 |       +-- Aftrtrtmnt1OtltGsSnsrHtrPrlmnryF
+                 +-- Aftrtrtmnt1OtltGsSnsrHeaterCtrl
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                         +-- Aftrtrtmnt1OtltNOxSnsrPrlmnryFMI
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                         +-- Aftrtrtmnt1OtltOxygnSnsrPrlmnryF
+
+  Signal tree:
+
+    -- {root}
+       +-- Aftertreatment1OutletNOx
+       +-- Aftertreatment1OutletO2
+       +-- Aftrtrtmnt1OtltGsSnsrPwrInRange
+       +-- Aftrtrtmnt1OtletGasSensorAtTemp
+       +-- Aftrtrtmnt1OtltNOxReadingStable
+       +-- Aftrtrtmnt1OtltWdRngO2RdngStble
+       +-- Aftrtrtmnt1OtltGsSnsrHtrPrlmnryF
+       +-- Aftrtrtmnt1OtltGsSnsrHeaterCtrl
+       +-- Aftrtrtmnt1OtltNOxSnsrPrlmnryFMI
+       +-- Aftrtrtmnt1OtltOxygnSnsrPrlmnryF
+
+  Signal choices:
+
+    Aftrtrtmnt1OtltGsSnsrPwrInRange
+        0 NotInRange
+        1 InRange
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt1OtletGasSensorAtTemp
+        0 NotInRange
+        1 InRange
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt1OtltNOxReadingStable
+        0 NotStable
+        1 Stable
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt1OtltWdRngO2RdngStble
+        0 NotStable
+        1 Stable
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt1OtltGsSnsrHeaterCtrl
+        0 Automatic
+        1 Preheat2
+        2 Preheat1
+        3 HeaterOff
+
+  ------------------------------------------------------------------------
+
+  Name:           AT2IG1
+  Id:             0x18f01000
+      Priority:       6
+      PGN:            0x0f010
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     50 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         1 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- Aftertreatment2IntakeNOx
+           +---+---+---+---+---+---+---+---+
+         2 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         3 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- Aftertreatment2IntakeO2
+           +---+---+---+---+---+---+---+---+
+         4 |<-----x|<-----x|<-----x|<-----x|
+     B     +---+---+---+---+---+---+---+---+
+     y       |       |       |       +-- Aftrtrtmnt2IntkGsSnsrPwrInRange
+     t       |       |       +-- Aftrtrtmnt2IntkeGasSensorAtTemp
+     e       |       +-- Aftrtrtmnt2IntkNOxReadingStable
+             +-- Aftrtrtmnt2IntkWdRngO2RdngStble
+           +---+---+---+---+---+---+---+---+
+         5 |   |<-----x|<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                 |       +-- Aftrtrtmnt2IntkGsSnsrHtrPrlmnryF
+                 +-- Aftrtrtmnt2IntkGsSnsrHeaterCtrl
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                         +-- Aftrtrtmnt2IntkNOxSnsrPrlmnryFMI
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                         +-- Aftrtrtmnt2IntkOxygnSnsrPrlmnryF
+
+  Signal tree:
+
+    -- {root}
+       +-- Aftertreatment2IntakeNOx
+       +-- Aftertreatment2IntakeO2
+       +-- Aftrtrtmnt2IntkGsSnsrPwrInRange
+       +-- Aftrtrtmnt2IntkeGasSensorAtTemp
+       +-- Aftrtrtmnt2IntkNOxReadingStable
+       +-- Aftrtrtmnt2IntkWdRngO2RdngStble
+       +-- Aftrtrtmnt2IntkGsSnsrHtrPrlmnryF
+       +-- Aftrtrtmnt2IntkGsSnsrHeaterCtrl
+       +-- Aftrtrtmnt2IntkNOxSnsrPrlmnryFMI
+       +-- Aftrtrtmnt2IntkOxygnSnsrPrlmnryF
+
+  Signal choices:
+
+    Aftrtrtmnt2IntkGsSnsrPwrInRange
+        0 NotInRange
+        1 InRange
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt2IntkeGasSensorAtTemp
+        0 NotInRange
+        1 InRange
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt2IntkNOxReadingStable
+        0 NotStable
+        1 Stable
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt2IntkWdRngO2RdngStble
+        0 NotStable
+        1 Stable
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt2IntkGsSnsrHeaterCtrl
+        0 Automatic
+        1 Preheat2
+        2 Preheat1
+        3 HeaterOff
+
+  ------------------------------------------------------------------------
+
+  Name:           AT2IG2
+  Id:             0x18fdb100
+      Priority:       6
+      PGN:            0x0fdb1
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     500 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         1 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- Aftertreatment2ExhaustGasTemp1
+           +---+---+---+---+---+---+---+---+
+         2 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         3 |<------------------------------|
+     B     +---+---+---+---+---+---+---+---+
+     y       +-- Aftrtrtmnt2PrtcltTrpIntkGasTemp
+     t     +---+---+---+---+---+---+---+---+
+     e   4 |   |   |   |<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                         +-- Aftrtrtmnt2ExhstGsTmp1PrlmnryFMI
+           +---+---+---+---+---+---+---+---+
+         5 |   |   |   |<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                         +-- Aftrtrtmnt2PrtcltTrpIntkGsTmpPrl
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+
+  Signal tree:
+
+    -- {root}
+       +-- Aftertreatment2ExhaustGasTemp1
+       +-- Aftrtrtmnt2PrtcltTrpIntkGasTemp
+       +-- Aftrtrtmnt2ExhstGsTmp1PrlmnryFMI
+       +-- Aftrtrtmnt2PrtcltTrpIntkGsTmpPrl
+
+  ------------------------------------------------------------------------
+
+  Name:           AT2IMG
+  Id:             0x18fdaf00
+      Priority:       6
+      PGN:            0x0fdaf
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     500 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         1 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- Aftertreatment2ExhaustGasTemp2
+           +---+---+---+---+---+---+---+---+
+         2 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         3 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+     B       +-- Aftrtrtmnt2PrtcltTrpIntrmdtGsTmp
+     y     +---+---+---+---+---+---+---+---+
+     t   4 |------------------------------x|
+     e     +---+---+---+---+---+---+---+---+
+         5 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- Aftrtrtmnt2PrtclteTrapDiffPress
+           +---+---+---+---+---+---+---+---+
+         6 |----------x|<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                         +-- Aftrtrtmnt2ExhstGsTmp2PrlmnryFMI
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |   |   |   |<------|
+           +---+---+---+---+---+---+---+---+
+                                     +-- Aftrtrtmnt2PrtcltTrpDltPrssPrlmn
+
+  Signal tree:
+
+    -- {root}
+       +-- Aftertreatment2ExhaustGasTemp2
+       +-- Aftrtrtmnt2PrtcltTrpIntrmdtGsTmp
+       +-- Aftrtrtmnt2PrtclteTrapDiffPress
+       +-- Aftrtrtmnt2ExhstGsTmp2PrlmnryFMI
+       +-- Aftrtrtmnt2PrtcltTrpDltPrssPrlmn
+
+  ------------------------------------------------------------------------
+
+  Name:           AT2OG1
+  Id:             0x18f01100
+      Priority:       6
+      PGN:            0x0f011
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     50 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         1 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- Aftertreatment2OutletNOx
+           +---+---+---+---+---+---+---+---+
+         2 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         3 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- Aftertreatment2OutletO2
+           +---+---+---+---+---+---+---+---+
+         4 |<-----x|<-----x|<-----x|<-----x|
+     B     +---+---+---+---+---+---+---+---+
+     y       |       |       |       +-- Aftrtrtmnt2OtltGsSnsrPwrInRange
+     t       |       |       +-- Aftrtrtmnt2OtletGasSensorAtTemp
+     e       |       +-- Aftrtrtmnt2OtltNOxReadingStable
+             +-- Aftrtrtmnt2OtltWdRngO2RdngStble
+           +---+---+---+---+---+---+---+---+
+         5 |   |<-----x|<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                 |       +-- Aftrtrtmnt2OtltGsSnsrHtrPrlmnryF
+                 +-- Aftrtrtmnt2OtltGsSnsrHeaterCtrl
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                         +-- Aftrtrtmnt2OtltNOxSnsrPrlmnryFMI
+           +---+---+---+---+---+---+---+---+
+         7 |   |   |   |<-----------------x|
+           +---+---+---+---+---+---+---+---+
+                         +-- Aftrtrtmnt2OtltOxygnSnsrPrlmnryF
+
+  Signal tree:
+
+    -- {root}
+       +-- Aftertreatment2OutletNOx
+       +-- Aftertreatment2OutletO2
+       +-- Aftrtrtmnt2OtltGsSnsrPwrInRange
+       +-- Aftrtrtmnt2OtletGasSensorAtTemp
+       +-- Aftrtrtmnt2OtltNOxReadingStable
+       +-- Aftrtrtmnt2OtltWdRngO2RdngStble
+       +-- Aftrtrtmnt2OtltGsSnsrHtrPrlmnryF
+       +-- Aftrtrtmnt2OtltGsSnsrHeaterCtrl
+       +-- Aftrtrtmnt2OtltNOxSnsrPrlmnryFMI
+       +-- Aftrtrtmnt2OtltOxygnSnsrPrlmnryF
+
+  Signal choices:
+
+    Aftrtrtmnt2OtltGsSnsrPwrInRange
+        0 NotInRange
+        1 InRange
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt2OtletGasSensorAtTemp
+        0 NotInRange
+        1 InRange
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt2OtltNOxReadingStable
+        0 NotStable
+        1 Stable
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt2OtltWdRngO2RdngStble
+        0 NotStable
+        1 Stable
+        2 Error
+        3 NotAvailable
+
+    Aftrtrtmnt2OtltGsSnsrHeaterCtrl
+        0 Automatic
+        1 Preheat2
+        2 Preheat1
+        3 HeaterOff
+
+  ------------------------------------------------------------------------
+
+  Name:           EOI
+  Id:             0xcfd9200
+      Priority:       3
+      PGN:            0x0fd92
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     250 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |   |   |<-----x|<-------------x|
+           +---+---+---+---+---+---+---+---+
+                     |       +-- EngOperatingState
+                     +-- FuelPumpPrimerCtrl
+           +---+---+---+---+---+---+---+---+
+         1 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         2 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- TmeRemainingInEngOperatingState
+           +---+---+---+---+---+---+---+---+
+         3 |<-----x|<-----x|<-----x|<-----x|
+           +---+---+---+---+---+---+---+---+
+             |       |       |       +-- EngFuelShutoffVentCtrl
+             |       |       +-- EngFuelShutoff1Ctrl
+     B       |       +-- EngFuelShutoff2Ctrl
+     y       +-- EngFuelShutoffValveLeakTestCtrl
+     t     +---+---+---+---+---+---+---+---+
+     e   4 |<-----x|<-----x|<-----x|<-----x|
+           +---+---+---+---+---+---+---+---+
+             |       |       |       +-- EngOilPrimingPumpCtrl
+             |       |       +-- EngOilPreheaterCtrl
+             |       +-- EngElctrclSystmPwrCnsrvtionCtrl
+             +-- EngBlock_CoolantPreheaterCtrl
+           +---+---+---+---+---+---+---+---+
+         5 |   |   |<-----x|<-----x|<-----x|
+           +---+---+---+---+---+---+---+---+
+                     |       |       +-- EngCoolantCirculatingPumpCtrl
+                     |       +-- EngCtrlledShutdownRq
+                     +-- EngEmergencyShutdownIndication
+           +---+---+---+---+---+---+---+---+
+         6 |   |   |   |   |   |   |   |   |
+           +---+---+---+---+---+---+---+---+
+         7 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngDerateRq
+
+  Signal tree:
+
+    -- {root}
+       +-- EngOperatingState
+       +-- FuelPumpPrimerCtrl
+       +-- TmeRemainingInEngOperatingState
+       +-- EngFuelShutoffVentCtrl
+       +-- EngFuelShutoff1Ctrl
+       +-- EngFuelShutoff2Ctrl
+       +-- EngFuelShutoffValveLeakTestCtrl
+       +-- EngOilPrimingPumpCtrl
+       +-- EngOilPreheaterCtrl
+       +-- EngElctrclSystmPwrCnsrvtionCtrl
+       +-- EngBlock_CoolantPreheaterCtrl
+       +-- EngCoolantCirculatingPumpCtrl
+       +-- EngCtrlledShutdownRq
+       +-- EngEmergencyShutdownIndication
+       +-- EngDerateRq
+
+  Signal choices:
+
+    EngOperatingState
+        0 STOPPED
+        1 STARTING
+        2 RUNNING
+        3 NOT AVAILABLE
+
+    FuelPumpPrimerCtrl
+        0 Deactivate
+        1 Activate
+        2 Reserved
+        3 Unavailable
+
+    EngFuelShutoffVentCtrl
+        0 Closed
+        1 Open
+        2 Reserved
+        3 DontCare_TakeNoAction
+
+    EngFuelShutoff1Ctrl
+        0 Open
+        1 Closed
+        2 Reserved
+        3 DontCare_TakeNoAction
+
+    EngFuelShutoff2Ctrl
+        0 Open
+        1 Closed
+        2 Reserved
+        3 DontCare_TakeNoAction
+
+    EngFuelShutoffValveLeakTestCtrl
+        0 Off
+        1 On
+        2 Reserved
+        3 DontCare_TakeNoAction
+
+    EngOilPrimingPumpCtrl
+        0 Off
+        1 On
+        2 Reserved
+        3 Unavailable
+
+    EngOilPreheaterCtrl
+        0 Off
+        1 On
+        2 Reserved
+        3 DontCare_TakeNoAction
+
+    EngElctrclSystmPwrCnsrvtionCtrl
+        0 Off
+        1 On
+        2 Reserved
+        3 Unavailable
+
+    EngBlock_CoolantPreheaterCtrl
+        0 Off
+        1 On
+        2 Reserved
+        3 Unavailable
+
+    EngCoolantCirculatingPumpCtrl
+        0 Off
+        1 On
+        2 Reserved
+        3 DontCare_TakeNoAction
+
+    EngCtrlledShutdownRq
+        0 Off
+        1 On
+        2 Reserved
+        3 DontCare_TakeNoAction
+
+    EngEmergencyShutdownIndication
+        0 No Request
+        1 Shutdown Request
+        2 Reserved
+        3 DontCare_TakeNoAction
+
+  ------------------------------------------------------------------------
+
+  Name:           DM1
+  Id:             0x18feca00
+      Priority:       6
+      PGN:            0x0feca
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         42 bytes
+  Cycle time:     - ms
+  Senders:        Engine1
+  Layout:
+
+                           Bit
+
+              7   6   5   4   3   2   1   0
+            +---+---+---+---+---+---+---+---+
+          0 |<-----x|<-----x|<-----x|<-----x|
+            +---+---+---+---+---+---+---+---+
+              |       |       |       +-- ProtectLampStatus
+              |       |       +-- AmberWarningLampStatus
+              |       +-- RedStopLampState
+              +-- MalfunctionIndicatorLampStatus
+            +---+---+---+---+---+---+---+---+
+          1 |<-----x|<-----x|<-----x|<-----x|
+            +---+---+---+---+---+---+---+---+
+              |       |       |       +-- FlashProtectLamp
+              |       |       +-- FlashAmberWarningLamp
+              |       +-- FlashRedStopLamp
+              +-- FlashMalfuncIndicatorLamp
+            +---+---+---+---+---+---+---+---+
+          2 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+          3 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+          4 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+          5 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- DTC1
+            +---+---+---+---+---+---+---+---+
+          6 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+          7 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+          8 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+          9 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- DTC2
+            +---+---+---+---+---+---+---+---+
+         10 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         11 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         12 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         13 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- DTC3
+            +---+---+---+---+---+---+---+---+
+         14 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         15 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         16 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         17 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- DTC4
+            +---+---+---+---+---+---+---+---+
+     B   18 |------------------------------x|
+     y      +---+---+---+---+---+---+---+---+
+     t   19 |-------------------------------|
+     e      +---+---+---+---+---+---+---+---+
+         20 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         21 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- DTC5
+            +---+---+---+---+---+---+---+---+
+         22 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         23 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         24 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         25 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- DTC6
+            +---+---+---+---+---+---+---+---+
+         26 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         27 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         28 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         29 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- DTC7
+            +---+---+---+---+---+---+---+---+
+         30 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         31 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         32 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         33 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- DTC8
+            +---+---+---+---+---+---+---+---+
+         34 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         35 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         36 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         37 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- DTC9
+            +---+---+---+---+---+---+---+---+
+         38 |------------------------------x|
+            +---+---+---+---+---+---+---+---+
+         39 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         40 |-------------------------------|
+            +---+---+---+---+---+---+---+---+
+         41 |<------------------------------|
+            +---+---+---+---+---+---+---+---+
+              +-- DTC10
+
+  Signal tree:
+
+    -- {root}
+       +-- ProtectLampStatus
+       +-- AmberWarningLampStatus
+       +-- RedStopLampState
+       +-- MalfunctionIndicatorLampStatus
+       +-- FlashProtectLamp
+       +-- FlashAmberWarningLamp
+       +-- FlashRedStopLamp
+       +-- FlashMalfuncIndicatorLamp
+       +-- DTC1
+       +-- DTC2
+       +-- DTC3
+       +-- DTC4
+       +-- DTC5
+       +-- DTC6
+       +-- DTC7
+       +-- DTC8
+       +-- DTC9
+       +-- DTC10
+
+  Signal choices:
+
+    ProtectLampStatus
+        0 Lamp off
+        1 Lamp on
+        2 Reserved
+        3 Not available
+
+    AmberWarningLampStatus
+        0 Lamp off
+        1 Lamp on
+        2 Reserved
+        3 Not available
+
+    RedStopLampState
+        0 Lamp off
+        1 Lamp on
+        2 Reserved
+        3 Not available
+
+    MalfunctionIndicatorLampStatus
+        0 Lamp off
+        1 Lamp on
+        2 Reserved
+        3 Not available
+
+    FlashProtectLamp
+        0 Slow Flash
+        1 Fast Flash
+        2 Reserved
+        3 Unavailable / Do Not Flash
+
+    FlashAmberWarningLamp
+        0 Slow Flash
+        1 Fast Flash
+        2 Reserved
+        3 Unavailable / Do Not Flash
+
+    FlashRedStopLamp
+        0 Slow Flash
+        1 Fast Flash
+        2 Reserved
+        3 Unavailable / Do Not Flash
+
+    FlashMalfuncIndicatorLamp
+        0 Slow Flash
+        1 Fast Flash
+        2 Reserved
+        3 Unavailable / Do Not Flash
+
+  ------------------------------------------------------------------------
+
+  Name:           AMB
+  Id:             0x18fef500
+      Priority:       6
+      PGN:            0x0fef5
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     1000 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- BarometricPress
+           +---+---+---+---+---+---+---+---+
+         1 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         2 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- CabInteriorTemp
+           +---+---+---+---+---+---+---+---+
+     B   3 |------------------------------x|
+     y     +---+---+---+---+---+---+---+---+
+     t   4 |<------------------------------|
+     e     +---+---+---+---+---+---+---+---+
+             +-- AmbientAirTemp
+           +---+---+---+---+---+---+---+---+
+         5 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- EngAirInletTemp
+           +---+---+---+---+---+---+---+---+
+         6 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         7 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- RoadSurfaceTemp
+
+  Signal tree:
+
+    -- {root}
+       +-- BarometricPress
+       +-- CabInteriorTemp
+       +-- AmbientAirTemp
+       +-- EngAirInletTemp
+       +-- RoadSurfaceTemp
+
+  ------------------------------------------------------------------------
+
+  Name:           VEP1
+  Id:             0x18fef700
+      Priority:       6
+      PGN:            0x0fef7
+      Source:         0x00
+      Destination:    All
+      Format:         PDU 2
+  Length:         8 bytes
+  Cycle time:     1000 ms
+  Senders:        Engine1
+  Layout:
+
+                          Bit
+
+             7   6   5   4   3   2   1   0
+           +---+---+---+---+---+---+---+---+
+         0 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- NetBatteryCurrent
+           +---+---+---+---+---+---+---+---+
+         1 |<-----------------------------x|
+           +---+---+---+---+---+---+---+---+
+             +-- AltCurrent
+           +---+---+---+---+---+---+---+---+
+         2 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+     B   3 |<------------------------------|
+     y     +---+---+---+---+---+---+---+---+
+     t       +-- ChargingSystemPotential
+     e     +---+---+---+---+---+---+---+---+
+         4 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         5 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- ElectricalPotential
+           +---+---+---+---+---+---+---+---+
+         6 |------------------------------x|
+           +---+---+---+---+---+---+---+---+
+         7 |<------------------------------|
+           +---+---+---+---+---+---+---+---+
+             +-- BatteryPotentialSwitched
+
+  Signal tree:
+
+    -- {root}
+       +-- NetBatteryCurrent
+       +-- AltCurrent
+       +-- ChargingSystemPotential
+       +-- ElectricalPotential
+       +-- BatteryPotentialSwitched
+
+  ------------------------------------------------------------------------
